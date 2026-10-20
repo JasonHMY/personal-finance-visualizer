@@ -39,3 +39,9 @@ On 20 October 2026, ClawHub accepted version `1.0.0` with the same 12 files as t
 Version `1.1.0` restores the maintained circular report interface and is available on GitHub. ClawHub accepted the same 12-file package on 20 October 2026; its publication is still pending registry review.
 
 `1.1.0` 已还原固定维护的圆环报表界面，并在 GitHub 发布。ClawHub 于 2026 年 10 月 20 日接收了同一份 12 文件发布包，目前仍等待平台审核。
+
+## Other distribution channels / 其他分发渠道
+
+See the [distribution status](distribution.md) for verified public listings, review queues and unresolved platform requirements.
+
+已核验的公开页面、审核队列及各平台尚缺条件，见[分发状态清单](distribution.zh-CN.md)。
