@@ -24,6 +24,13 @@
 !demo/overview.jpg
 !demo/expenses-zh.jpg
 !demo/expenses-en.jpg
+!demo/income-en.jpg
+!demo/transfers-en.jpg
+!demo/merchants-en.jpg
+!demo/transaction-details-en.jpg
+!demo/notes-en.jpg
+!demo/expenses-light-en.jpg
+!demo/mobile-en.jpg
 !demo/README.md
 !scripts/
 !scripts/*.py

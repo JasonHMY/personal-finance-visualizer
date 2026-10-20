@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md) · [Agent Skill](skills/personal-finance-visualizer/SKILL.md) · [Input schema](skills/personal-finance-visualizer/references/schema.md) · [ClawHub](https://clawhub.ai/jasonhmy/skills/personal-finance-visualizer)
 
+[Visual guide](docs/visual-guide.md) · [Install](#install-as-an-agent-skill) · [Download](https://github.com/JasonHMY/personal-finance-visualizer/releases/latest)
+
 Turn user-provided finance records into an interactive local report. Explore spending, income, transfers and cash movement by day, week, month or year, then open the transactions behind a total.
 
 ![English spending view using fictional demo data](demo/expenses-en.jpg)
@@ -18,6 +20,34 @@ Turn user-provided finance records into an interactive local report. Explore spe
 It does not connect to banks, request credentials, move money or manage subscriptions. Raw bank CSV needs a known field mapping; PDF extraction depends on the agent's available tools and must be reconciled before use. This is not a universal bank-statement parser.
 
 The bundled template preserves a circular report layout: three primary spending rings, three secondary rings, merchant breakdowns, a timeline and collapsed details. The view dropdown sits beside the title. Income, transfers and overview each retain their own layout. Dark mode is the default, with a local light-mode toggle. The skill uses this template directly instead of redesigning the report for each request.
+
+## From a total to the payments behind it
+
+**Compare merchants within a category.** Switch between everyday, fixed, AI and housing spending. The merchant rings show which providers make up each category; the timeline below shows when everyday spending occurred.
+
+![Merchant breakdown and everyday spending timeline](demo/merchants-en.jpg)
+
+**Open the actual rows.** Select a ring segment or a category row to see dates, source references, original bank amounts and personal shares. Search inside the detail window without losing the selected period.
+
+![Searchable transaction details for a fictional merchant](demo/transaction-details-en.jpg)
+
+## Income, transfers and the cash overview
+
+Income separates salary, living allowance and other receipts. Transfers show external movements, confirmed repayments and outstanding confirmed loans. These views keep transfers separate from income and spending.
+
+<table>
+<tr><th>Income</th><th>Transfers</th></tr>
+<tr>
+<td width="50%"><a href="demo/income-en.jpg"><img src="demo/income-en.jpg" alt="Income totals, daily average and source breakdown" width="100%"></a></td>
+<td width="50%"><a href="demo/transfers-en.jpg"><img src="demo/transfers-en.jpg" alt="Outgoing and incoming transfers with confirmed loan metrics" width="100%"></a></td>
+</tr>
+</table>
+
+The overview answers a different question: how much came in, how much went out, and what changed during the period. Click a total to inspect its transactions. It is a view of supplied-account cash movement, not an account balance or net-worth calculation.
+
+![Cash overview with inflow, outflow and net change](demo/overview.jpg)
+
+All screenshots use invented records. [Open the visual guide](docs/visual-guide.md) for the complete page walkthrough, calculation notes, Chinese interface, light theme and narrow-screen layout. Click any screenshot to inspect it at full size.
 
 ## Install as an Agent Skill
 

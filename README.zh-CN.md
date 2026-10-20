@@ -2,6 +2,8 @@
 
 [English](README.md) · [Agent Skill](skills/personal-finance-visualizer/SKILL.md) · [输入格式](skills/personal-finance-visualizer/references/schema.md) · [ClawHub](https://clawhub.ai/jasonhmy/skills/personal-finance-visualizer)
 
+[图文详解](docs/visual-guide.zh-CN.md) · [安装](#安装为-agent-skill) · [下载](https://github.com/JasonHMY/personal-finance-visualizer/releases/latest)
+
 把用户提供的财务记录做成本地交互报表。按天、周、月或年查看消费、收入、转账和资金变动，再打开每项金额对应的交易。
 
 ![使用虚构演示数据的英文消费视图](demo/expenses-en.jpg)
@@ -18,6 +20,34 @@
 本项目不连接银行、不索要凭据，也不转账或管理订阅。原始银行 CSV 需要先明确字段映射；PDF 能否提取取决于 Agent 可用的工具，使用前必须核对。本项目不包含通用银行账单解析器。
 
 内置模板固定使用圆环报表布局：三张主要消费圆环、三张分组圆环、商户细分、趋势图和折叠明细。视图下拉框位于标题旁，收入、转账和总览分别保留各自的布局。默认深色，可在本地切换浅色。Skill 直接使用这套模板，不在每次请求时重新设计界面。
+
+## 从总额看到具体付款
+
+**在分类内比较商户。** 可以切换日常、固定、AI 和租房支出。商户圆环显示每个分类由哪些商户或供应商构成，下方趋势图显示日常消费发生的时间。
+
+![商户细分和日常消费趋势](demo/merchants-en.jpg)
+
+**打开实际流水。** 点击圆环扇区或分类行，可以查看日期、来源凭据、银行原始金额和个人分摊比例。明细窗口内可搜索，保留当前选择的期间。
+
+![虚构商户的可搜索交易明细](demo/transaction-details-en.jpg)
+
+## 收入、转账和资金总览
+
+收入页把工资、生活费汇入和其他收入分开。转账页展示对外往来、已确认归还和已确认借款未还金额。转账不会混入收入和消费。
+
+<table>
+<tr><th>收入</th><th>转账</th></tr>
+<tr>
+<td width="50%"><a href="demo/income-en.jpg"><img src="demo/income-en.jpg" alt="收入总额、日均收入和来源分类" width="100%"></a></td>
+<td width="50%"><a href="demo/transfers-en.jpg"><img src="demo/transfers-en.jpg" alt="对外转出、转入和已确认借款指标" width="100%"></a></td>
+</tr>
+</table>
+
+总览回答另一个问题：本期流入多少、流出多少、净增加或减少多少。点击总额可检查对应流水。它反映已提供账户的期间资金变动，不是账户余额或净资产计算。
+
+![总流入、总流出和净增减](demo/overview.jpg)
+
+全部截图均使用虚构记录。[打开图文详解](docs/visual-guide.zh-CN.md)，查看完整页面介绍、计算说明、中文界面、浅色主题和窄屏布局。点击任意截图可以查看原图。
 
 ## 安装为 Agent Skill
 
