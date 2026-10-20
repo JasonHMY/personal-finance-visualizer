@@ -4,7 +4,7 @@
 
 Checked on 20 October 2026. This pass covered 26 relevant channels: skill registries, directories, automatic indexes and official plugin directories. It is not a claim to cover every site on the internet.
 
-Four new channels were processed: the 养虾池 listing is public; Skillstore, OpenAgentSkill and myagents accepted submissions for review. ClawHub was submitted earlier and remains pending. Acceptance, community-queue visibility and public publication are recorded separately.
+Five new channels were processed: the 养虾池 listing is public; Skillstore, OpenAgentSkill, myagents and Skillz.directory accepted submissions for review. ClawHub was submitted earlier and remains pending. Acceptance, community-queue visibility and public publication are recorded separately.
 
 | Platform / official evidence | Intake route | Result in this run |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ Four new channels were processed: the 养虾池 listing is public; Skillstore, O
 | [skills.sh](https://www.skills.sh/docs/faq) | GitHub installation + install-based discovery | Installation already verified. No separate publish API; leaderboard inclusion not confirmed. No synthetic install counts sent. |
 | [agentskill.sh](https://agentskill.sh/submit) | GitHub import form | Attempted once; site says too many submissions and to retry in one hour. Not accepted in this run. |
 | [OmniSkill Registry](https://omniskill.online/) | Repository verification/submit form | Attempted once; form returned a network/JSON parsing error. No successful receipt. |
-| [Skillz.directory](https://www.skillz.directory/submit) | Repository form; official API route exists | Requires a contact email; none supplied for this submission. Not submitted. |
+| [Skillz.directory](https://www.skillz.directory/submit) | Repository form; official API route exists | Accepted through the web form; success page confirmed review is pending. Not yet public. |
 | [SkillHub.fyi](https://docs.skillhub.fyi/docs/cli/publish) | Directory package + public registry + CLI | Current browser is signed out. Needs account/login and registry publishing access; free during public beta. |
 | [腾讯 SkillHub](https://skillhub.cn/ai/release.md) | Web/CLI/Agent publishing | Requires phone verification, real-name face verification and a publishing token. Human identity steps remain. |
 | [讯飞 Astron SkillHub](https://iflytek.github.io/skillhub/guide/skill-publish.html) | CLI/REST package publishing | Needs token and namespace permission. Production account eligibility not verified in this run. |
@@ -37,7 +37,7 @@ Four new channels were processed: the 养虾池 listing is public; Skillstore, O
 
 ## Verification boundaries
 
-- Only public GitHub URLs, already-public skill files and project descriptions were sent. No real statements or financial records were submitted.
+- Submitted packages contain only public project files and descriptions. A publisher-approved contact email was supplied privately to Skillz.directory for review notices. No real statements or financial records were submitted.
 - 养虾池 serves a source archive of the public repository. All 12 skill files were compared with v1.1.0 and match. Its API version field still shows the default `1.0.0`; an update request did not change it. The public description therefore states the actual source version and GitHub installation entry. Follow this project's README; the platform-generated install command is not a verified install path.
 - The Skillstore PR contains the complete skill directory and a generated platform report. Three checks passed, but maintainers have not merged it. OpenAgentSkill routes the script-containing package to manual review and has not added it to the main directory. myagents explicitly returned saved and awaiting manual review.
 - API keys and token-bearing private status receipts stay on the publisher's machine, outside this repository. No new schedule, webhook, automatic rating or fabricated installation count was enabled.

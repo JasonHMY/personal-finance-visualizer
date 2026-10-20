@@ -4,7 +4,7 @@
 
 核查日期：2026 年 10 月 20 日。本轮核查了 26 个相关渠道，包括 Skills 注册表、目录、自动索引站和官方插件目录；不保证穷尽全网。
 
-本次新增处理了 4 个渠道：养虾池已公开，Skillstore、OpenAgentSkill 和 myagents 已受理、待审核。ClawHub 是此前已提交、目前仍待审的渠道。提交成功、社区队列可见和正式上架分别记录。
+本次新增处理了 5 个渠道：养虾池已公开，Skillstore、OpenAgentSkill、myagents 和 Skillz.directory 已受理、待审核。ClawHub 是此前已提交、目前仍待审的渠道。提交成功、社区队列可见和正式上架分别记录。
 
 | 平台／官方依据 | 接收方式 | 本轮结果 |
 | --- | --- | --- |
@@ -18,7 +18,7 @@
 | [skills.sh](https://www.skills.sh/docs/faq) | GitHub 安装及安装统计驱动的发现 | 已验证可以安装；没有独立发布 API，未确认进入排行榜，未制造安装量。 |
 | [agentskill.sh](https://agentskill.sh/submit) | GitHub 导入表单 | 已尝试一次，平台提示提交过多、一小时后重试；本次未受理。 |
 | [OmniSkill Registry](https://omniskill.online/) | 仓库验证及提交表单 | 已尝试一次，返回网络／JSON 解析错误，没有成功回执。 |
-| [Skillz.directory](https://www.skillz.directory/submit) | 仓库表单，官方源码含提交 API | 需要联系邮箱，本次尚未提供用于提交的邮箱，因此未提交。 |
+| [Skillz.directory](https://www.skillz.directory/submit) | 仓库表单，官方源码含提交 API | 已通过网页表单受理，成功页确认等待审核，尚未公开上架。 |
 | [SkillHub.fyi](https://docs.skillhub.fyi/docs/cli/publish) | 目录打包、公开注册表及 CLI | 当前浏览器未登录；需要账号及注册表发布权限，公开测试期免费。 |
 | [腾讯 SkillHub](https://skillhub.cn/ai/release.md) | 网页、CLI 或 Agent 发布 | 需要手机号验证、人脸实名认证及发布 Token；身份验证须本人完成。 |
 | [讯飞 Astron SkillHub](https://iflytek.github.io/skillhub/guide/skill-publish.html) | CLI／REST 技能包发布 | 需要 Token 和命名空间权限；本轮未核验生产账号申请资格。 |
@@ -37,7 +37,7 @@
 
 ## 核验边界
 
-- 只向这些平台发送公开 GitHub 地址、已经公开的 Skill 文件及项目说明，没有发送真实账单或财务记录。
+- 提交的文件包只含公开项目文件及说明；已向 Skillz.directory 私下提供发布者批准的联系邮箱，用于审核通知。没有发送真实账单或财务记录。
 - 养虾池下载的是公开仓库源码压缩包；已逐一比对其中 12 个 Skill 文件与 v1.1.0 一致。它的 API 版本字段仍显示默认 `1.0.0`，更新该字段的请求未改变返回值，因此已在公开简介明确标注真实源码版本及 GitHub 安装入口。安装以项目 README 为准，不把平台生成的命令当作已验证路径。
 - Skillstore 的 PR 包含完整 Skill 目录和平台生成的报告；三项检查通过，但维护者尚未合并。OpenAgentSkill 将含脚本的包转入人工审核，当前不在正式目录中。myagents 明确返回已保存、等待人工审核。
 - API Key 和带私密 token 的查询回执保存在发布者本机，未提交到此仓库。没有启用新定时任务、Webhook、自动评分或虚构安装统计。
