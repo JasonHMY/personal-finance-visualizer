@@ -35,3 +35,7 @@ python3 scripts/package_release.py /tmp/personal-finance-visualizer-1.0.0.zip
 On 20 October 2026, ClawHub accepted version `1.0.0` with the same 12 files as the GitHub release package. Publication is pending the registry’s scan and review; the listing is currently hidden from the public catalog. Check the [listing](https://clawhub.ai/jasonhmy/skills/personal-finance-visualizer) for its current availability. The GitHub release remains available.
 
 2026 年 10 月 20 日，ClawHub 已接收 `1.0.0`，文件与 GitHub 发布包中的 12 个文件一致。目前等待平台扫描和审核，尚未在公开目录展示。当前可用状态请查看[发布页](https://clawhub.ai/jasonhmy/skills/personal-finance-visualizer)；GitHub 发布版仍可下载。
+
+Version `1.1.0` restores the maintained circular report interface and is available on GitHub. ClawHub accepted the same 12-file package on 20 October 2026; its publication is still pending registry review.
+
+`1.1.0` 已还原固定维护的圆环报表界面，并在 GitHub 发布。ClawHub 于 2026 年 10 月 20 日接收了同一份 12 文件发布包，目前仍等待平台审核。

@@ -4,7 +4,7 @@
 
 Turn user-provided finance records into an interactive local report. Explore spending, income, transfers and cash movement by day, week, month or year, then open the transactions behind a total.
 
-![English overview using fictional demo data](demo/expenses-en.jpg)
+![English spending view using fictional demo data](demo/expenses-en.jpg)
 
 ## What it does
 
