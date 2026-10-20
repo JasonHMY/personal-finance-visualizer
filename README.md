@@ -1,6 +1,6 @@
 # Personal Finance Visualizer
 
-[简体中文](README.zh-CN.md) · [Agent Skill](skills/personal-finance-visualizer/SKILL.md) · [Input schema](skills/personal-finance-visualizer/references/schema.md)
+[简体中文](README.zh-CN.md) · [Agent Skill](skills/personal-finance-visualizer/SKILL.md) · [Input schema](skills/personal-finance-visualizer/references/schema.md) · [ClawHub](https://clawhub.ai/jasonhmy/skills/personal-finance-visualizer)
 
 Turn user-provided finance records into an interactive local report. Explore spending, income, transfers and cash movement by day, week, month or year, then open the transactions behind a total.
 

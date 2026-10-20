@@ -1,6 +1,6 @@
 # Personal Finance Visualizer
 
-[English](README.md) · [Agent Skill](skills/personal-finance-visualizer/SKILL.md) · [输入格式](skills/personal-finance-visualizer/references/schema.md)
+[English](README.md) · [Agent Skill](skills/personal-finance-visualizer/SKILL.md) · [输入格式](skills/personal-finance-visualizer/references/schema.md) · [ClawHub](https://clawhub.ai/jasonhmy/skills/personal-finance-visualizer)
 
 把用户提供的财务记录做成本地交互报表。按天、周、月或年查看消费、收入、转账和资金变动，再打开每项金额对应的交易。
 

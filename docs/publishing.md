@@ -29,3 +29,9 @@ python3 scripts/package_release.py /tmp/personal-finance-visualizer-1.0.0.zip
 - **skills.sh：**[官方 CLI](https://github.com/vercel-labs/skills)可直接从公开 GitHub 来源安装，并提供 `check` 和 `update`。支持安装与进入排行榜是两个状态。文档中的安装命令保留 `DISABLE_TELEMETRY=1`，不为制造上榜或安装量而开启遥测。
 - **ClawHub：**[官方发布文档](https://docs.openclaw.ai/clawhub/quickstart)使用 `clawhub skill publish`。[CLI 合同](https://docs.openclaw.ai/clawhub/cli)规定 Skill 以 MIT-0 发布，与本项目许可一致。登录和平台审核可能影响可用性，不批量同步无关的本地 Skill。
 - 其他目录可以引用本项目的公开 GitHub 仓库。不把未经核验的提交说成已经完成。
+
+## ClawHub submission / ClawHub 提交记录
+
+On 20 October 2026, ClawHub accepted version `1.0.0` with the same 12 files as the GitHub release package. Publication is pending the registry’s scan and review; the listing is currently hidden from the public catalog. Check the [listing](https://clawhub.ai/jasonhmy/skills/personal-finance-visualizer) for its current availability. The GitHub release remains available.
+
+2026 年 10 月 20 日，ClawHub 已接收 `1.0.0`，文件与 GitHub 发布包中的 12 个文件一致。目前等待平台扫描和审核，尚未在公开目录展示。当前可用状态请查看[发布页](https://clawhub.ai/jasonhmy/skills/personal-finance-visualizer)；GitHub 发布版仍可下载。
