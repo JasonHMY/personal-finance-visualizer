@@ -11,3 +11,7 @@ Build an Agent Skill with a standalone local report, fictional examples and equi
 - Publish a tagged GitHub release and the supported skill registry package; verify each result separately.
 
 The public package contains no source bank statements or personal financial records. All demo records are invented.
+
+## Version 1.1 interface correction
+
+Preserve the approved circular report instead of substituting a new dashboard. Check the 1120px content width, 40px heading, 24px card spacing, equal-height three-column primary row, 300/220/190px plots, muted chart palette, title-adjacent view dropdown, merchant scope switches, searchable continuous transaction dialogs and collapsed notes. Use only synthetic screenshots for public verification.

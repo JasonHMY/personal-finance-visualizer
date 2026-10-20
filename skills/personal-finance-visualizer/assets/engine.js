@@ -48,11 +48,13 @@
       if (['income', 'refund', 'transfer_in'].includes(t.kind) && amountCents <= 0) fail('Incoming records must be positive.');
       if (['expense', 'transfer_out'].includes(t.kind) && amountCents >= 0) fail('Outgoing records must be negative.');
       const group = t.group || 'other';
+      const incomeType = t.incomeType || 'other', purpose = t.purpose || 'other';
+      if (!['salary','support','other'].includes(incomeType) || !['loan','reimbursement','other'].includes(purpose)) fail('Invalid income or transfer classification.');
       if (!groups.includes(group)) fail('Invalid expense group.');
       const share = t.share == null || t.share === '' ? 1 : Number(t.share);
       if (!Number.isFinite(share) || share < 0 || share > 1 || Math.abs(share * 10000 - Math.round(share * 10000)) > 1e-8) fail('Share must be between zero and one with at most four decimal places.');
       if (t.kind !== 'expense' && share !== 1) fail('Personal shares apply only to expenses.');
-      return {id, date: t.date, description: text(t.description), amount: t.amount, amountCents, kind: t.kind, group, share, category: text(t.category, 'Uncategorized'), account: text(t.account), source: text(t.source)};
+      return {id, date: t.date, description: text(t.description), amount: t.amount, amountCents, kind: t.kind, group, share, category: text(t.category, 'Uncategorized'), merchant: text(t.merchant), incomeType, purpose, account: text(t.account), source: text(t.source)};
     });
     const byId = new Map(transactions.map(t => [t.id, t]));
     if (!Array.isArray(input.refunds || []) || !Array.isArray(input.settlements || []) || !Array.isArray(input.notes || [])) fail('Refunds, settlements and notes must be arrays.');

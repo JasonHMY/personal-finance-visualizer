@@ -40,7 +40,10 @@ The example is invented. Never put real inputs in the installed skill or its Git
 - `kind` is `expense`, `income`, `refund`, `transfer_in`, `transfer_out`, or `internal`. Unknown incoming payments are `transfer_in`, not income. Uncertain outgoing payments are `transfer_out` until their purpose is confirmed.
 - Income, refund and transfer-in amounts must be positive. Expense and transfer-out amounts must be negative. Internal entries allow either sign and are omitted from external cash movement.
 - `group` is `daily`, `fixed`, `ai`, `housing`, `education`, `equipment`, or `other`. It applies to expenses. Do not infer an AI subscription from ordinary software.
-- `category`, `description`, `account` and `source` are plain text. Use account aliases, not account numbers. Source references should identify a private original without embedding its contents or absolute filesystem path.
+- Optional `incomeType` is `salary`, `support` or `other` (default). Use a confirmed classification, not an inference from the sender. It selects the secondary income rings.
+- Optional `purpose` is `loan`, `reimbursement` or `other` (default). Only explicit `loan` transfers contribute to confirmed loan metrics. Settlement rules still apply to all confirmed allocations.
+- Optional `merchant` groups descriptions from the same confirmed merchant; when absent, the report uses `description` for merchant rings.
+- `category`, `description`, `merchant`, `account` and `source` are plain text. Use account aliases, not account numbers. Source references should identify a private original without embedding its contents or absolute filesystem path.
 - `share` defaults to 1 and is between 0 and 1, with up to four decimal places. Apply only a user-confirmed personal share to expenses. Bank amounts remain unchanged. Calculation retains fractional cents; display rounds once.
 - `notes` is a list of plain-text limitations, definitions and source coverage notes.
 

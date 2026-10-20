@@ -4,7 +4,7 @@
 
 Turn user-provided finance records into an interactive local report. Explore spending, income, transfers and cash movement by day, week, month or year, then open the transactions behind a total.
 
-![English overview using fictional demo data](demo/overview.jpg)
+![English overview using fictional demo data](demo/expenses-en.jpg)
 
 ## What it does
 
@@ -16,6 +16,8 @@ Turn user-provided finance records into an interactive local report. Explore spe
 - No runtime packages beyond Python's standard library. The report uses plain HTML, CSS and JavaScript.
 
 It does not connect to banks, request credentials, move money or manage subscriptions. Raw bank CSV needs a known field mapping; PDF extraction depends on the agent's available tools and must be reconciled before use. This is not a universal bank-statement parser.
+
+The bundled template preserves a circular report layout: three primary spending rings, three secondary rings, merchant breakdowns, a timeline and collapsed details. The view dropdown sits beside the title. Income, transfers and overview each retain their own layout. Dark mode is the default, with a local light-mode toggle. The skill uses this template directly instead of redesigning the report for each request.
 
 ## Install as an Agent Skill
 

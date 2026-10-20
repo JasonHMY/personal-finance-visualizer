@@ -64,3 +64,9 @@ test('synthetic demo reconciles views and every period partition',()=>{
  assert.equal(all.net,all.inflow-all.outflow);
  assert.equal(all.spending,Object.values(all.groups).reduce((s,v)=>s+v,0));
 });
+test('confirmed optional classifications survive normalization without inference',()=>{
+ const d=data([tx('s','2024-01-01','100','income',{incomeType:'salary',merchant:'Fictional employer'}),tx('l','2024-01-03','-80','transfer_out',{purpose:'loan'}),tx('u','2024-02-01','75','transfer_in')]);
+ const rows=F.summarize(d,period).rows;
+ assert.equal(rows.find(r=>r.id==='s').incomeType,'salary');assert.equal(rows.find(r=>r.id==='l').purpose,'loan');assert.equal(rows.find(r=>r.id==='u').purpose,'other');
+ assert.throws(()=>data([tx('x','2024-01-01','100','income',{incomeType:'guessed'})]));
+});

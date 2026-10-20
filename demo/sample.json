@@ -17,7 +17,9 @@
       "category": "Salary",
       "account": "Demo checking",
       "source": "Fictional example row 1",
-      "share": 1
+      "share": 1,
+      "incomeType": "salary",
+      "purpose": "other"
     },
     {
       "id": "fiction-0002",
@@ -29,10 +31,26 @@
       "category": "Freelance",
       "account": "Demo checking",
       "source": "Fictional example row 2",
-      "share": 1
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
       "id": "fiction-0003",
+      "date": "2024-01-10",
+      "description": "Demo household allowance",
+      "amount": "350.00",
+      "kind": "income",
+      "group": "other",
+      "category": "Living allowance",
+      "account": "Demo checking",
+      "source": "Fictional example row 3",
+      "share": 1,
+      "incomeType": "support",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0004",
       "date": "2024-01-03",
       "description": "Fictional home rent",
       "amount": "-1560.00",
@@ -40,11 +58,13 @@
       "group": "housing",
       "category": "Rent",
       "account": "Demo checking",
-      "source": "Fictional example row 3",
-      "share": 0.5
+      "source": "Fictional example row 4",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0004",
+      "id": "fiction-0005",
       "date": "2024-01-08",
       "description": "Fictional home internet",
       "amount": "-64.00",
@@ -52,11 +72,13 @@
       "group": "housing",
       "category": "Internet",
       "account": "Demo checking",
-      "source": "Fictional example row 4",
-      "share": 0.5
+      "source": "Fictional example row 5",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0005",
+      "id": "fiction-0006",
       "date": "2024-01-12",
       "description": "Fictional utility provider",
       "amount": "-100.00",
@@ -64,11 +86,13 @@
       "group": "housing",
       "category": "Utilities",
       "account": "Demo checking",
-      "source": "Fictional example row 5",
-      "share": 0.5
+      "source": "Fictional example row 6",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0006",
+      "id": "fiction-0007",
       "date": "2024-01-06",
       "description": "Example music service",
       "amount": "-11.50",
@@ -76,11 +100,13 @@
       "group": "fixed",
       "category": "Music",
       "account": "Demo checking",
-      "source": "Fictional example row 6",
-      "share": 1
+      "source": "Fictional example row 7",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0007",
+      "id": "fiction-0008",
       "date": "2024-01-14",
       "description": "Example cloud notes",
       "amount": "-7.00",
@@ -88,11 +114,13 @@
       "group": "fixed",
       "category": "Software",
       "account": "Demo checking",
-      "source": "Fictional example row 7",
-      "share": 1
+      "source": "Fictional example row 8",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0008",
+      "id": "fiction-0009",
       "date": "2024-01-15",
       "description": "Example language model",
       "amount": "-23.00",
@@ -100,35 +128,41 @@
       "group": "ai",
       "category": "AI tools",
       "account": "Demo checking",
-      "source": "Fictional example row 8",
-      "share": 1
+      "source": "Fictional example row 9",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0009",
+      "id": "fiction-0010",
       "date": "2024-01-03",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-58.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 9",
-      "share": 1
+      "source": "Fictional example row 10",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0010",
+      "id": "fiction-0011",
       "date": "2024-01-04",
-      "description": "Fictional lunch cafe",
+      "description": "Example noodle cafe",
       "amount": "-25.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 10",
-      "share": 1
+      "source": "Fictional example row 11",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0011",
+      "id": "fiction-0012",
       "date": "2024-01-05",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -136,35 +170,41 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 11",
-      "share": 1
+      "source": "Fictional example row 12",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0012",
+      "id": "fiction-0013",
       "date": "2024-01-06",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-79.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 12",
-      "share": 1
+      "source": "Fictional example row 13",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0013",
+      "id": "fiction-0014",
       "date": "2024-01-08",
-      "description": "Fictional lunch cafe",
+      "description": "Sample tea shop",
       "amount": "-13.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 13",
-      "share": 1
+      "source": "Fictional example row 14",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0014",
+      "id": "fiction-0015",
       "date": "2024-01-09",
       "description": "Fictional corner market",
       "amount": "-35.00",
@@ -172,11 +212,13 @@
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 14",
-      "share": 1
+      "source": "Fictional example row 15",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0015",
+      "id": "fiction-0016",
       "date": "2024-01-10",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -184,11 +226,13 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 15",
-      "share": 1
+      "source": "Fictional example row 16",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0016",
+      "id": "fiction-0017",
       "date": "2024-01-11",
       "description": "Fictional bookshop",
       "amount": "-19.00",
@@ -196,23 +240,27 @@
       "group": "daily",
       "category": "Shopping",
       "account": "Demo checking",
-      "source": "Fictional example row 16",
-      "share": 1
+      "source": "Fictional example row 17",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0017",
+      "id": "fiction-0018",
       "date": "2024-01-12",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-56.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 17",
-      "share": 1
+      "source": "Fictional example row 18",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0018",
+      "id": "fiction-0019",
       "date": "2024-01-12",
       "description": "Fictional lunch cafe",
       "amount": "-25.00",
@@ -220,23 +268,27 @@
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 18",
-      "share": 1
+      "source": "Fictional example row 19",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0019",
+      "id": "fiction-0020",
       "date": "2024-01-15",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-77.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 19",
-      "share": 1
+      "source": "Fictional example row 20",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0020",
+      "id": "fiction-0021",
       "date": "2024-01-15",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -244,23 +296,27 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 20",
-      "share": 1
+      "source": "Fictional example row 21",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0021",
+      "id": "fiction-0022",
       "date": "2024-01-16",
-      "description": "Fictional lunch cafe",
+      "description": "Example noodle cafe",
       "amount": "-13.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 21",
-      "share": 1
+      "source": "Fictional example row 22",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0022",
+      "id": "fiction-0023",
       "date": "2024-01-18",
       "description": "Fictional corner market",
       "amount": "-33.00",
@@ -268,23 +324,27 @@
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 22",
-      "share": 1
+      "source": "Fictional example row 23",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0023",
+      "id": "fiction-0024",
       "date": "2024-01-20",
-      "description": "Fictional lunch cafe",
+      "description": "Sample tea shop",
       "amount": "-25.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 23",
-      "share": 1
+      "source": "Fictional example row 24",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0024",
+      "id": "fiction-0025",
       "date": "2024-01-20",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -292,23 +352,27 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 24",
-      "share": 1
+      "source": "Fictional example row 25",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0025",
+      "id": "fiction-0026",
       "date": "2024-01-21",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-54.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 25",
-      "share": 1
+      "source": "Fictional example row 26",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0026",
+      "id": "fiction-0027",
       "date": "2024-01-22",
       "description": "Fictional bookshop",
       "amount": "-19.00",
@@ -316,23 +380,27 @@
       "group": "daily",
       "category": "Shopping",
       "account": "Demo checking",
-      "source": "Fictional example row 26",
-      "share": 1
+      "source": "Fictional example row 27",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0027",
+      "id": "fiction-0028",
       "date": "2024-01-24",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-75.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 27",
-      "share": 1
+      "source": "Fictional example row 28",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0028",
+      "id": "fiction-0029",
       "date": "2024-01-24",
       "description": "Fictional lunch cafe",
       "amount": "-13.00",
@@ -340,11 +408,13 @@
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 28",
-      "share": 1
+      "source": "Fictional example row 29",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0029",
+      "id": "fiction-0030",
       "date": "2024-01-25",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -352,11 +422,13 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 29",
-      "share": 1
+      "source": "Fictional example row 30",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0030",
+      "id": "fiction-0031",
       "date": "2024-01-27",
       "description": "Fictional corner market",
       "amount": "-31.00",
@@ -364,35 +436,41 @@
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 30",
-      "share": 1
+      "source": "Fictional example row 31",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0031",
+      "id": "fiction-0032",
       "date": "2024-01-28",
-      "description": "Fictional lunch cafe",
+      "description": "Example noodle cafe",
       "amount": "-25.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 31",
-      "share": 1
+      "source": "Fictional example row 32",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0032",
+      "id": "fiction-0033",
       "date": "2024-01-30",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-52.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 32",
-      "share": 1
+      "source": "Fictional example row 33",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0033",
+      "id": "fiction-0034",
       "date": "2024-01-30",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -400,11 +478,41 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 33",
-      "share": 1
+      "source": "Fictional example row 34",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0034",
+      "id": "fiction-0035",
+      "date": "2024-01-09",
+      "description": "Fictional household supplies",
+      "amount": "-14.25",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Other",
+      "account": "Demo checking",
+      "source": "Fictional example row 35",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0036",
+      "date": "2024-01-13",
+      "description": "Fictional unresolved shop receipt",
+      "amount": "-8.40",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Uncategorized",
+      "account": "Demo checking",
+      "source": "Fictional example row 36",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0037",
       "date": "2024-01-20",
       "description": "Own savings move",
       "amount": "-350.00",
@@ -412,11 +520,13 @@
       "group": "other",
       "category": "Own transfer",
       "account": "Demo checking",
-      "source": "Fictional example row 34",
-      "share": 1
+      "source": "Fictional example row 37",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0035",
+      "id": "fiction-0038",
       "date": "2024-01-20",
       "description": "Own savings move",
       "amount": "350.00",
@@ -424,11 +534,13 @@
       "group": "other",
       "category": "Own transfer",
       "account": "Demo savings",
-      "source": "Fictional example row 35",
-      "share": 1
+      "source": "Fictional example row 38",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0036",
+      "id": "fiction-0039",
       "date": "2024-01-22",
       "description": "Unknown incoming payment",
       "amount": "65.00",
@@ -436,11 +548,13 @@
       "group": "other",
       "category": "Needs review",
       "account": "Demo checking",
-      "source": "Fictional example row 36",
-      "share": 1
+      "source": "Fictional example row 39",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0037",
+      "id": "fiction-0040",
       "date": "2024-02-02",
       "description": "Demo employer",
       "amount": "4200.00",
@@ -448,11 +562,13 @@
       "group": "other",
       "category": "Salary",
       "account": "Demo checking",
-      "source": "Fictional example row 37",
-      "share": 1
+      "source": "Fictional example row 40",
+      "share": 1,
+      "incomeType": "salary",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0038",
+      "id": "fiction-0041",
       "date": "2024-02-17",
       "description": "Demo weekend project",
       "amount": "250.00",
@@ -460,11 +576,27 @@
       "group": "other",
       "category": "Freelance",
       "account": "Demo checking",
-      "source": "Fictional example row 38",
-      "share": 1
+      "source": "Fictional example row 41",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0039",
+      "id": "fiction-0042",
+      "date": "2024-02-10",
+      "description": "Demo household allowance",
+      "amount": "350.00",
+      "kind": "income",
+      "group": "other",
+      "category": "Living allowance",
+      "account": "Demo checking",
+      "source": "Fictional example row 42",
+      "share": 1,
+      "incomeType": "support",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0043",
       "date": "2024-02-03",
       "description": "Fictional home rent",
       "amount": "-1560.00",
@@ -472,11 +604,13 @@
       "group": "housing",
       "category": "Rent",
       "account": "Demo checking",
-      "source": "Fictional example row 39",
-      "share": 0.5
+      "source": "Fictional example row 43",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0040",
+      "id": "fiction-0044",
       "date": "2024-02-08",
       "description": "Fictional home internet",
       "amount": "-64.00",
@@ -484,11 +618,13 @@
       "group": "housing",
       "category": "Internet",
       "account": "Demo checking",
-      "source": "Fictional example row 40",
-      "share": 0.5
+      "source": "Fictional example row 44",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0041",
+      "id": "fiction-0045",
       "date": "2024-02-12",
       "description": "Fictional utility provider",
       "amount": "-108.00",
@@ -496,11 +632,13 @@
       "group": "housing",
       "category": "Utilities",
       "account": "Demo checking",
-      "source": "Fictional example row 41",
-      "share": 0.5
+      "source": "Fictional example row 45",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0042",
+      "id": "fiction-0046",
       "date": "2024-02-06",
       "description": "Example music service",
       "amount": "-11.50",
@@ -508,11 +646,13 @@
       "group": "fixed",
       "category": "Music",
       "account": "Demo checking",
-      "source": "Fictional example row 42",
-      "share": 1
+      "source": "Fictional example row 46",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0043",
+      "id": "fiction-0047",
       "date": "2024-02-14",
       "description": "Example cloud notes",
       "amount": "-7.00",
@@ -520,11 +660,13 @@
       "group": "fixed",
       "category": "Software",
       "account": "Demo checking",
-      "source": "Fictional example row 43",
-      "share": 1
+      "source": "Fictional example row 47",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0044",
+      "id": "fiction-0048",
       "date": "2024-02-15",
       "description": "Example language model",
       "amount": "-23.00",
@@ -532,35 +674,41 @@
       "group": "ai",
       "category": "AI tools",
       "account": "Demo checking",
-      "source": "Fictional example row 44",
-      "share": 1
+      "source": "Fictional example row 48",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0045",
+      "id": "fiction-0049",
       "date": "2024-02-03",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-71.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 45",
-      "share": 1
+      "source": "Fictional example row 49",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0046",
+      "id": "fiction-0050",
       "date": "2024-02-04",
-      "description": "Fictional lunch cafe",
+      "description": "Example noodle cafe",
       "amount": "-26.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 46",
-      "share": 1
+      "source": "Fictional example row 50",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0047",
+      "id": "fiction-0051",
       "date": "2024-02-05",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -568,35 +716,41 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 47",
-      "share": 1
+      "source": "Fictional example row 51",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0048",
+      "id": "fiction-0052",
       "date": "2024-02-06",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-27.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 48",
-      "share": 1
+      "source": "Fictional example row 52",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0049",
+      "id": "fiction-0053",
       "date": "2024-02-08",
-      "description": "Fictional lunch cafe",
+      "description": "Sample tea shop",
       "amount": "-14.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 49",
-      "share": 1
+      "source": "Fictional example row 53",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0050",
+      "id": "fiction-0054",
       "date": "2024-02-09",
       "description": "Fictional corner market",
       "amount": "-48.00",
@@ -604,11 +758,13 @@
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 50",
-      "share": 1
+      "source": "Fictional example row 54",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0051",
+      "id": "fiction-0055",
       "date": "2024-02-10",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -616,11 +772,13 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 51",
-      "share": 1
+      "source": "Fictional example row 55",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0052",
+      "id": "fiction-0056",
       "date": "2024-02-11",
       "description": "Fictional bookshop",
       "amount": "-23.00",
@@ -628,23 +786,27 @@
       "group": "daily",
       "category": "Shopping",
       "account": "Demo checking",
-      "source": "Fictional example row 52",
-      "share": 1
+      "source": "Fictional example row 56",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0053",
+      "id": "fiction-0057",
       "date": "2024-02-12",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-69.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 53",
-      "share": 1
+      "source": "Fictional example row 57",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0054",
+      "id": "fiction-0058",
       "date": "2024-02-12",
       "description": "Fictional lunch cafe",
       "amount": "-26.00",
@@ -652,72 +814,28 @@
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 54",
-      "share": 1
+      "source": "Fictional example row 58",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0055",
+      "id": "fiction-0059",
       "date": "2024-02-15",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-25.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 55",
-      "share": 1
-    },
-    {
-      "id": "fiction-0056",
-      "date": "2024-02-15",
-      "description": "Fictional transit pass",
-      "amount": "-9.50",
-      "kind": "expense",
-      "group": "daily",
-      "category": "Transport",
-      "account": "Demo checking",
-      "source": "Fictional example row 56",
-      "share": 1
-    },
-    {
-      "id": "fiction-0057",
-      "date": "2024-02-16",
-      "description": "Fictional lunch cafe",
-      "amount": "-14.00",
-      "kind": "expense",
-      "group": "daily",
-      "category": "Dining",
-      "account": "Demo checking",
-      "source": "Fictional example row 57",
-      "share": 1
-    },
-    {
-      "id": "fiction-0058",
-      "date": "2024-02-18",
-      "description": "Fictional corner market",
-      "amount": "-46.00",
-      "kind": "expense",
-      "group": "daily",
-      "category": "Groceries",
-      "account": "Demo checking",
-      "source": "Fictional example row 58",
-      "share": 1
-    },
-    {
-      "id": "fiction-0059",
-      "date": "2024-02-20",
-      "description": "Fictional lunch cafe",
-      "amount": "-26.00",
-      "kind": "expense",
-      "group": "daily",
-      "category": "Dining",
-      "account": "Demo checking",
       "source": "Fictional example row 59",
-      "share": 1
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
       "id": "fiction-0060",
-      "date": "2024-02-20",
+      "date": "2024-02-15",
       "description": "Fictional transit pass",
       "amount": "-9.50",
       "kind": "expense",
@@ -725,22 +843,82 @@
       "category": "Transport",
       "account": "Demo checking",
       "source": "Fictional example row 60",
-      "share": 1
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
       "id": "fiction-0061",
-      "date": "2024-02-21",
+      "date": "2024-02-16",
+      "description": "Example noodle cafe",
+      "amount": "-14.00",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Dining",
+      "account": "Demo checking",
+      "source": "Fictional example row 61",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0062",
+      "date": "2024-02-18",
       "description": "Fictional corner market",
+      "amount": "-46.00",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Groceries",
+      "account": "Demo checking",
+      "source": "Fictional example row 62",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0063",
+      "date": "2024-02-20",
+      "description": "Sample tea shop",
+      "amount": "-26.00",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Dining",
+      "account": "Demo checking",
+      "source": "Fictional example row 63",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0064",
+      "date": "2024-02-20",
+      "description": "Fictional transit pass",
+      "amount": "-9.50",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Transport",
+      "account": "Demo checking",
+      "source": "Fictional example row 64",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0065",
+      "date": "2024-02-21",
+      "description": "Example village grocer",
       "amount": "-67.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 61",
-      "share": 1
+      "source": "Fictional example row 65",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0062",
+      "id": "fiction-0066",
       "date": "2024-02-22",
       "description": "Fictional bookshop",
       "amount": "-23.00",
@@ -748,23 +926,27 @@
       "group": "daily",
       "category": "Shopping",
       "account": "Demo checking",
-      "source": "Fictional example row 62",
-      "share": 1
+      "source": "Fictional example row 66",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0063",
+      "id": "fiction-0067",
       "date": "2024-02-24",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-88.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 63",
-      "share": 1
+      "source": "Fictional example row 67",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0064",
+      "id": "fiction-0068",
       "date": "2024-02-24",
       "description": "Fictional lunch cafe",
       "amount": "-14.00",
@@ -772,11 +954,13 @@
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 64",
-      "share": 1
+      "source": "Fictional example row 68",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0065",
+      "id": "fiction-0069",
       "date": "2024-02-25",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -784,11 +968,13 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 65",
-      "share": 1
+      "source": "Fictional example row 69",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0066",
+      "id": "fiction-0070",
       "date": "2024-02-27",
       "description": "Fictional corner market",
       "amount": "-44.00",
@@ -796,23 +982,55 @@
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 66",
-      "share": 1
+      "source": "Fictional example row 70",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0067",
+      "id": "fiction-0071",
       "date": "2024-02-28",
-      "description": "Fictional lunch cafe",
+      "description": "Example noodle cafe",
       "amount": "-26.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 67",
-      "share": 1
+      "source": "Fictional example row 71",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0068",
+      "id": "fiction-0072",
+      "date": "2024-02-09",
+      "description": "Fictional household supplies",
+      "amount": "-14.25",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Other",
+      "account": "Demo checking",
+      "source": "Fictional example row 72",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0073",
+      "date": "2024-02-13",
+      "description": "Fictional unresolved shop receipt",
+      "amount": "-8.40",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Uncategorized",
+      "account": "Demo checking",
+      "source": "Fictional example row 73",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0074",
       "date": "2024-02-20",
       "description": "Own savings move",
       "amount": "-350.00",
@@ -820,11 +1038,13 @@
       "group": "other",
       "category": "Own transfer",
       "account": "Demo checking",
-      "source": "Fictional example row 68",
-      "share": 1
+      "source": "Fictional example row 74",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0069",
+      "id": "fiction-0075",
       "date": "2024-02-20",
       "description": "Own savings move",
       "amount": "350.00",
@@ -832,11 +1052,13 @@
       "group": "other",
       "category": "Own transfer",
       "account": "Demo savings",
-      "source": "Fictional example row 69",
-      "share": 1
+      "source": "Fictional example row 75",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0070",
+      "id": "fiction-0076",
       "date": "2024-02-22",
       "description": "Unknown incoming payment",
       "amount": "65.00",
@@ -844,11 +1066,13 @@
       "group": "other",
       "category": "Needs review",
       "account": "Demo checking",
-      "source": "Fictional example row 70",
-      "share": 1
+      "source": "Fictional example row 76",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0071",
+      "id": "fiction-0077",
       "date": "2024-03-02",
       "description": "Demo employer",
       "amount": "4200.00",
@@ -856,11 +1080,13 @@
       "group": "other",
       "category": "Salary",
       "account": "Demo checking",
-      "source": "Fictional example row 71",
-      "share": 1
+      "source": "Fictional example row 77",
+      "share": 1,
+      "incomeType": "salary",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0072",
+      "id": "fiction-0078",
       "date": "2024-03-17",
       "description": "Demo weekend project",
       "amount": "285.00",
@@ -868,11 +1094,27 @@
       "group": "other",
       "category": "Freelance",
       "account": "Demo checking",
-      "source": "Fictional example row 72",
-      "share": 1
+      "source": "Fictional example row 78",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0073",
+      "id": "fiction-0079",
+      "date": "2024-03-10",
+      "description": "Demo household allowance",
+      "amount": "350.00",
+      "kind": "income",
+      "group": "other",
+      "category": "Living allowance",
+      "account": "Demo checking",
+      "source": "Fictional example row 79",
+      "share": 1,
+      "incomeType": "support",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0080",
       "date": "2024-03-03",
       "description": "Fictional home rent",
       "amount": "-1560.00",
@@ -880,11 +1122,13 @@
       "group": "housing",
       "category": "Rent",
       "account": "Demo checking",
-      "source": "Fictional example row 73",
-      "share": 0.5
+      "source": "Fictional example row 80",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0074",
+      "id": "fiction-0081",
       "date": "2024-03-08",
       "description": "Fictional home internet",
       "amount": "-64.00",
@@ -892,11 +1136,13 @@
       "group": "housing",
       "category": "Internet",
       "account": "Demo checking",
-      "source": "Fictional example row 74",
-      "share": 0.5
+      "source": "Fictional example row 81",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0075",
+      "id": "fiction-0082",
       "date": "2024-03-12",
       "description": "Fictional utility provider",
       "amount": "-116.00",
@@ -904,11 +1150,13 @@
       "group": "housing",
       "category": "Utilities",
       "account": "Demo checking",
-      "source": "Fictional example row 75",
-      "share": 0.5
+      "source": "Fictional example row 82",
+      "share": 0.5,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0076",
+      "id": "fiction-0083",
       "date": "2024-03-06",
       "description": "Example music service",
       "amount": "-11.50",
@@ -916,11 +1164,13 @@
       "group": "fixed",
       "category": "Music",
       "account": "Demo checking",
-      "source": "Fictional example row 76",
-      "share": 1
+      "source": "Fictional example row 83",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0077",
+      "id": "fiction-0084",
       "date": "2024-03-14",
       "description": "Example cloud notes",
       "amount": "-7.00",
@@ -928,11 +1178,13 @@
       "group": "fixed",
       "category": "Software",
       "account": "Demo checking",
-      "source": "Fictional example row 77",
-      "share": 1
+      "source": "Fictional example row 84",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0078",
+      "id": "fiction-0085",
       "date": "2024-03-15",
       "description": "Example language model",
       "amount": "-23.00",
@@ -940,35 +1192,41 @@
       "group": "ai",
       "category": "AI tools",
       "account": "Demo checking",
-      "source": "Fictional example row 78",
-      "share": 1
+      "source": "Fictional example row 85",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0079",
+      "id": "fiction-0086",
       "date": "2024-03-03",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-84.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 79",
-      "share": 1
+      "source": "Fictional example row 86",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0080",
+      "id": "fiction-0087",
       "date": "2024-03-04",
-      "description": "Fictional lunch cafe",
+      "description": "Example noodle cafe",
       "amount": "-27.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 80",
-      "share": 1
+      "source": "Fictional example row 87",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0081",
+      "id": "fiction-0088",
       "date": "2024-03-05",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -976,35 +1234,41 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 81",
-      "share": 1
+      "source": "Fictional example row 88",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0082",
+      "id": "fiction-0089",
       "date": "2024-03-06",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-40.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 82",
-      "share": 1
+      "source": "Fictional example row 89",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0083",
+      "id": "fiction-0090",
       "date": "2024-03-08",
-      "description": "Fictional lunch cafe",
+      "description": "Sample tea shop",
       "amount": "-15.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 83",
-      "share": 1
+      "source": "Fictional example row 90",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0084",
+      "id": "fiction-0091",
       "date": "2024-03-09",
       "description": "Fictional corner market",
       "amount": "-61.00",
@@ -1012,11 +1276,13 @@
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 84",
-      "share": 1
+      "source": "Fictional example row 91",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0085",
+      "id": "fiction-0092",
       "date": "2024-03-10",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -1024,11 +1290,13 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 85",
-      "share": 1
+      "source": "Fictional example row 92",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0086",
+      "id": "fiction-0093",
       "date": "2024-03-11",
       "description": "Fictional bookshop",
       "amount": "-27.00",
@@ -1036,23 +1304,27 @@
       "group": "daily",
       "category": "Shopping",
       "account": "Demo checking",
-      "source": "Fictional example row 86",
-      "share": 1
+      "source": "Fictional example row 93",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0087",
+      "id": "fiction-0094",
       "date": "2024-03-12",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-82.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 87",
-      "share": 1
+      "source": "Fictional example row 94",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0088",
+      "id": "fiction-0095",
       "date": "2024-03-12",
       "description": "Fictional lunch cafe",
       "amount": "-27.00",
@@ -1060,23 +1332,27 @@
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 88",
-      "share": 1
+      "source": "Fictional example row 95",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0089",
+      "id": "fiction-0096",
       "date": "2024-03-15",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-38.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 89",
-      "share": 1
+      "source": "Fictional example row 96",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0090",
+      "id": "fiction-0097",
       "date": "2024-03-15",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -1084,23 +1360,27 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 90",
-      "share": 1
+      "source": "Fictional example row 97",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0091",
+      "id": "fiction-0098",
       "date": "2024-03-16",
-      "description": "Fictional lunch cafe",
+      "description": "Example noodle cafe",
       "amount": "-15.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 91",
-      "share": 1
+      "source": "Fictional example row 98",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0092",
+      "id": "fiction-0099",
       "date": "2024-03-18",
       "description": "Fictional corner market",
       "amount": "-59.00",
@@ -1108,23 +1388,27 @@
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 92",
-      "share": 1
+      "source": "Fictional example row 99",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0093",
+      "id": "fiction-0100",
       "date": "2024-03-20",
-      "description": "Fictional lunch cafe",
+      "description": "Sample tea shop",
       "amount": "-27.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 93",
-      "share": 1
+      "source": "Fictional example row 100",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0094",
+      "id": "fiction-0101",
       "date": "2024-03-20",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -1132,23 +1416,27 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 94",
-      "share": 1
+      "source": "Fictional example row 101",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0095",
+      "id": "fiction-0102",
       "date": "2024-03-21",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-80.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 95",
-      "share": 1
+      "source": "Fictional example row 102",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0096",
+      "id": "fiction-0103",
       "date": "2024-03-22",
       "description": "Fictional bookshop",
       "amount": "-27.00",
@@ -1156,23 +1444,27 @@
       "group": "daily",
       "category": "Shopping",
       "account": "Demo checking",
-      "source": "Fictional example row 96",
-      "share": 1
+      "source": "Fictional example row 103",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0097",
+      "id": "fiction-0104",
       "date": "2024-03-24",
-      "description": "Fictional corner market",
+      "description": "Sample produce shop",
       "amount": "-36.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 97",
-      "share": 1
+      "source": "Fictional example row 104",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0098",
+      "id": "fiction-0105",
       "date": "2024-03-24",
       "description": "Fictional lunch cafe",
       "amount": "-15.00",
@@ -1180,11 +1472,13 @@
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 98",
-      "share": 1
+      "source": "Fictional example row 105",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0099",
+      "id": "fiction-0106",
       "date": "2024-03-25",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -1192,11 +1486,13 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 99",
-      "share": 1
+      "source": "Fictional example row 106",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0100",
+      "id": "fiction-0107",
       "date": "2024-03-27",
       "description": "Fictional corner market",
       "amount": "-57.00",
@@ -1204,35 +1500,41 @@
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 100",
-      "share": 1
+      "source": "Fictional example row 107",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0101",
+      "id": "fiction-0108",
       "date": "2024-03-28",
-      "description": "Fictional lunch cafe",
+      "description": "Example noodle cafe",
       "amount": "-27.00",
       "kind": "expense",
       "group": "daily",
       "category": "Dining",
       "account": "Demo checking",
-      "source": "Fictional example row 101",
-      "share": 1
+      "source": "Fictional example row 108",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0102",
+      "id": "fiction-0109",
       "date": "2024-03-30",
-      "description": "Fictional corner market",
+      "description": "Example village grocer",
       "amount": "-78.00",
       "kind": "expense",
       "group": "daily",
       "category": "Groceries",
       "account": "Demo checking",
-      "source": "Fictional example row 102",
-      "share": 1
+      "source": "Fictional example row 109",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0103",
+      "id": "fiction-0110",
       "date": "2024-03-30",
       "description": "Fictional transit pass",
       "amount": "-9.50",
@@ -1240,11 +1542,41 @@
       "group": "daily",
       "category": "Transport",
       "account": "Demo checking",
-      "source": "Fictional example row 103",
-      "share": 1
+      "source": "Fictional example row 110",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0104",
+      "id": "fiction-0111",
+      "date": "2024-03-09",
+      "description": "Fictional household supplies",
+      "amount": "-14.25",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Other",
+      "account": "Demo checking",
+      "source": "Fictional example row 111",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0112",
+      "date": "2024-03-13",
+      "description": "Fictional unresolved shop receipt",
+      "amount": "-8.40",
+      "kind": "expense",
+      "group": "daily",
+      "category": "Uncategorized",
+      "account": "Demo checking",
+      "source": "Fictional example row 112",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
+    },
+    {
+      "id": "fiction-0113",
       "date": "2024-03-20",
       "description": "Own savings move",
       "amount": "-350.00",
@@ -1252,11 +1584,13 @@
       "group": "other",
       "category": "Own transfer",
       "account": "Demo checking",
-      "source": "Fictional example row 104",
-      "share": 1
+      "source": "Fictional example row 113",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0105",
+      "id": "fiction-0114",
       "date": "2024-03-20",
       "description": "Own savings move",
       "amount": "350.00",
@@ -1264,11 +1598,13 @@
       "group": "other",
       "category": "Own transfer",
       "account": "Demo savings",
-      "source": "Fictional example row 105",
-      "share": 1
+      "source": "Fictional example row 114",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0106",
+      "id": "fiction-0115",
       "date": "2024-03-22",
       "description": "Unknown incoming payment",
       "amount": "65.00",
@@ -1276,11 +1612,13 @@
       "group": "other",
       "category": "Needs review",
       "account": "Demo checking",
-      "source": "Fictional example row 106",
-      "share": 1
+      "source": "Fictional example row 115",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0107",
+      "id": "fiction-0116",
       "date": "2024-02-23",
       "description": "Fictional returned desk lamp",
       "amount": "-84.00",
@@ -1288,11 +1626,13 @@
       "group": "daily",
       "category": "Shopping",
       "account": "Demo checking",
-      "source": "Fictional example row 107",
-      "share": 1
+      "source": "Fictional example row 116",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0108",
+      "id": "fiction-0117",
       "date": "2024-03-04",
       "description": "Fictional lamp refund",
       "amount": "84.00",
@@ -1300,11 +1640,13 @@
       "group": "other",
       "category": "Refund",
       "account": "Demo checking",
-      "source": "Fictional example row 108",
-      "share": 1
+      "source": "Fictional example row 117",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0109",
+      "id": "fiction-0118",
       "date": "2024-03-11",
       "description": "Unpaired fictional refund",
       "amount": "18.00",
@@ -1312,11 +1654,13 @@
       "group": "other",
       "category": "Needs review",
       "account": "Demo checking",
-      "source": "Fictional example row 109",
-      "share": 1
+      "source": "Fictional example row 118",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0110",
+      "id": "fiction-0119",
       "date": "2024-01-25",
       "description": "Confirmed demo loan",
       "amount": "-120.00",
@@ -1324,11 +1668,13 @@
       "group": "other",
       "category": "Loan",
       "account": "Demo checking",
-      "source": "Fictional example row 110",
-      "share": 1
+      "source": "Fictional example row 119",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "loan"
     },
     {
-      "id": "fiction-0111",
+      "id": "fiction-0120",
       "date": "2024-03-09",
       "description": "Confirmed demo partial repayment",
       "amount": "50.00",
@@ -1336,11 +1682,13 @@
       "group": "other",
       "category": "Loan repayment",
       "account": "Demo checking",
-      "source": "Fictional example row 111",
-      "share": 1
+      "source": "Fictional example row 120",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "loan"
     },
     {
-      "id": "fiction-0112",
+      "id": "fiction-0121",
       "date": "2024-03-19",
       "description": "Unclassified fictional transfer",
       "amount": "-45.00",
@@ -1348,11 +1696,13 @@
       "group": "other",
       "category": "Needs review",
       "account": "Demo checking",
-      "source": "Fictional example row 112",
-      "share": 1
+      "source": "Fictional example row 121",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     },
     {
-      "id": "fiction-0113",
+      "id": "fiction-0122",
       "date": "2024-03-24",
       "description": "Fictional course materials",
       "amount": "-96.00",
@@ -1360,22 +1710,24 @@
       "group": "education",
       "category": "Study",
       "account": "Demo checking",
-      "source": "Fictional example row 113",
-      "share": 1
+      "source": "Fictional example row 122",
+      "share": 1,
+      "incomeType": "other",
+      "purpose": "other"
     }
   ],
   "refunds": [
     {
-      "purchaseId": "fiction-0107",
+      "purchaseId": "fiction-0116",
       "refundIds": [
-        "fiction-0108"
+        "fiction-0117"
       ]
     }
   ],
   "settlements": [
     {
-      "outId": "fiction-0110",
-      "inId": "fiction-0111",
+      "outId": "fiction-0119",
+      "inId": "fiction-0120",
       "amount": "50.00"
     }
   ],

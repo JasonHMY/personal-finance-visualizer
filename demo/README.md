@@ -8,6 +8,6 @@ All records, names, dates and amounts are invented. Nothing is sampled, anonymiz
 python3 skills/personal-finance-visualizer/scripts/demo_data.py > demo/sample.json
 ```
 
-The two screenshots use only this fixture: English overview and Chinese expenses. The UI language switch translates controls; original merchant descriptions and categories stay in the supplied language.
+All three screenshots use only this fixture: English overview, English spending and Chinese spending. The UI language switch translates controls; original merchant descriptions and categories stay in the supplied language.
 
-两张截图只使用这份样例，分别展示英文总览和中文消费页。界面语言切换会翻译控件；原始商户说明和分类保留输入语言。
+三张截图只使用这份样例，分别展示英文总览、英文消费页和中文消费页。界面语言切换会翻译控件；原始商户说明和分类保留输入语言。

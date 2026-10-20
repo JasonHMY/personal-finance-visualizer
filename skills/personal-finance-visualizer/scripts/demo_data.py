@@ -7,13 +7,16 @@ def make_demo(language="en"):
     def add(day, description, amount, kind="expense", group="daily", category="Groceries", account="Demo checking", share=1):
         row = dict(id=f"fiction-{len(rows)+1:04}", date=day, description=description,
                    amount=f"{amount:.2f}", kind=kind, group=group, category=category,
-                   account=account, source=f"Fictional example row {len(rows)+1}", share=share)
+                   account=account, source=f"Fictional example row {len(rows)+1}", share=share,
+                   incomeType="salary" if description=="Demo employer" else "support" if description=="Demo household allowance" else "other",
+                   purpose="loan" if "loan" in description or "repayment" in description else "other")
         rows.append(row)
         return row["id"]
     for m in range(1, 4):
         d = lambda day: f"2024-{m:02}-{day:02}"
         add(d(2), "Demo employer", 4200, "income", "other", "Salary")
         add(d(17), "Demo weekend project", 180 + 35*m, "income", "other", "Freelance")
+        add(d(10), "Demo household allowance", 350, "income", "other", "Living allowance")
         add(d(3), "Fictional home rent", -1560, group="housing", category="Rent", share=.5)
         add(d(8), "Fictional home internet", -64, group="housing", category="Internet", share=.5)
         add(d(12), "Fictional utility provider", -92-8*m, group="housing", category="Utilities", share=.5)
@@ -21,10 +24,12 @@ def make_demo(language="en"):
         add(d(14), "Example cloud notes", -7, group="fixed", category="Software")
         add(d(15), "Example language model", -23, group="ai", category="AI tools")
         for day in range(1, monthrange(2024,m)[1]+1):
-            if day % 3 == 0: add(d(day), "Fictional corner market", -(24 + (day*7+m*13)%65), category="Groceries")
-            if day % 4 == 0: add(d(day), "Fictional lunch cafe", -(12 + (day*3+m)%24), category="Dining")
+            if day % 3 == 0: add(d(day), ["Fictional corner market", "Example village grocer", "Sample produce shop"][(day//3)%3], -(24 + (day*7+m*13)%65), category="Groceries")
+            if day % 4 == 0: add(d(day), ["Fictional lunch cafe", "Example noodle cafe", "Sample tea shop"][(day//4)%3], -(12 + (day*3+m)%24), category="Dining")
             if day % 5 == 0: add(d(day), "Fictional transit pass", -9.50, category="Transport")
             if day % 11 == 0: add(d(day), "Fictional bookshop", -(15+m*4), category="Shopping")
+        add(d(9), "Fictional household supplies", -14.25, category="Other")
+        add(d(13), "Fictional unresolved shop receipt", -8.40, category="Uncategorized")
         add(d(20), "Own savings move", -350, "internal", "other", "Own transfer")
         add(d(20), "Own savings move", 350, "internal", "other", "Own transfer", "Demo savings")
         add(d(22), "Unknown incoming payment", 65, "transfer_in", "other", "Needs review")
