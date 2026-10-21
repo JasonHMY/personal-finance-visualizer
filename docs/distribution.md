@@ -1,5 +1,16 @@
 # Distribution channels and actual status
 
+## 21 October 2026 update: v1.2.1
+
+- GitHub now publishes v1.2.1 and the user-level installation is synchronized. Yangxiachi links to the same 12-file release ZIP; downloaded bytes match. Its version field still returns the old value, while the description states v1.2.1.
+- This release adds six-row scrolling legends, direct view controls, chart amounts/shares/counts, bar labels and concurrent preview serving. All 6 Python and 12 calculation tests pass, skill validation passes, and the accounting engine is unchanged.
+- ClawHub accepted v1.2.1 with 12 files and pending-publication status; its public latest remains 1.1.0. The earlier 1.2.0 submission contained two Python test caches. The clean 1.2.1 package is now recommended; withdrawal of the old pending version is not confirmed.
+- Skillstore merged the earlier PR #3852, but its catalog copy remains at 1.1.0. The [new submission](https://skillstore.io/submissions/927eb347-ad7f-4c70-b110-a0ecac73f3e7) was accepted for processing; its final captured version is not yet confirmed.
+- OpenAgentSkill reports the old submission as listed. New source versions were submitted separately; acceptance does not establish public availability of the update.
+- Other channels retain the 20 October baseline below. Updating the GitHub source does not confirm refreshed catalog copies or indexing. Account, identity, payment and manual-review requirements remain unresolved; pending applications were not duplicated.
+
+The following is the 20 October 2026 baseline. Its version and review states are historical.
+
 [简体中文](distribution.zh-CN.md) · [Project home](../README.md) · [Release workflow](publishing.md)
 
 Checked on 20 October 2026. This pass covered 26 relevant channels: skill registries, directories, automatic indexes and official plugin directories. It is not a claim to cover every site on the internet.
