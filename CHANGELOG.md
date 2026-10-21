@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.1 — 2026-10-21
+
+- Publish registry packages from the release ZIP allowlist to exclude Python test caches. Report behavior is unchanged from 1.2.0.
+- 注册表改用发布 ZIP 的文件白名单，排除 Python 测试缓存。报表功能与 1.2.0 相同。
+
 ## 1.2.0 — 2026-10-21
 
 - Show six legend rows per ring card, with internal scrolling and edge fades.

@@ -9,12 +9,12 @@ The canonical source is [JasonHMY/personal-finance-visualizer](https://github.co
 1. Change the version in `SKILL.md` metadata and `scripts/check_update.py`, and describe changes in `CHANGELOG.md`. Keep the two README files equivalent.
 2. Run the Python and Node tests, inspect the UI with fictional data, and review the exact public file list. No personal inputs, reports, captures, logs or local paths may be committed.
 3. Commit reviewed source, tag the release and build the ZIP using the explicit package allowlist. Attach the ZIP to a GitHub release. Verify the remote files and release before reporting success.
-4. Publish the same skill directory to ClawHub if authenticated. Use an explicit version and inspect the registry response and moderation state. GitHub release availability does not imply a registry listing is live.
+4. Extract the allowlisted release ZIP into a clean staging directory and publish that directory to ClawHub if authenticated. Never publish the working directory: Python tests can create bytecode caches. Use an explicit version and inspect the registry response and moderation state. GitHub release availability does not imply a registry listing is live.
 
 1. 修改 `SKILL.md` 元数据及 `scripts/check_update.py` 中的版本，在 `CHANGELOG.md` 记录变更，并保持两版 README 内容一致。
 2. 运行 Python 和 Node 测试，用虚构数据检查界面，并审阅确切的公开文件清单。不得提交个人输入、报告、截图、日志或本地路径。
 3. 提交已审阅源码、创建版本标签，再按明确的文件白名单制作 ZIP 并附到 GitHub Release。回读远端文件和发布记录后再报告成功。
-4. 已登录 ClawHub 时，把同一 Skill 目录按明确版本发布，检查返回结果和审核状态。GitHub 已发布不代表注册表已经上架。
+4. 已登录 ClawHub 时，先将白名单 ZIP 解压到干净暂存目录，再将该目录按明确版本发布；不要直接提交可能包含测试缓存的工作目录，检查返回结果和审核状态。GitHub 已发布不代表注册表已经上架。
 
 ```bash
 python3 scripts/package_release.py /tmp/personal-finance-visualizer-1.0.0.zip
