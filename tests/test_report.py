@@ -1,6 +1,8 @@
 import importlib.util
 import json
 from pathlib import Path
+import socket
+import time
 import tempfile
 import threading
 import unittest
@@ -53,6 +55,27 @@ class ReportTests(unittest.TestCase):
             with self.assertRaises(urllib.error.HTTPError): urllib.request.urlopen(req)
         finally:
             server.shutdown();server.server_close();worker.join()
+
+    def test_idle_connection_does_not_block_report_and_times_out(self):
+        server, url = report.create_server(b"synthetic")
+        worker = threading.Thread(target=server.serve_forever, daemon=True)
+        worker.start()
+        idle = socket.create_connection(server.server_address, timeout=2)
+        try:
+            # A partial request models a browser connection waiting for more bytes.
+            started = time.monotonic()
+            idle.sendall(b"GET ")
+            with urllib.request.urlopen(url, timeout=2) as response:
+                self.assertEqual(response.read(), b"synthetic")
+            idle.settimeout(13)
+            self.assertEqual(idle.recv(1), b"")
+            self.assertGreaterEqual(time.monotonic() - started, 9)
+            self.assertLess(time.monotonic() - started, 13)
+        finally:
+            idle.close()
+            server.shutdown()
+            server.server_close()
+            worker.join()
 
     def test_demo_is_reproducible_without_reading_files(self):
         path=ROOT/"skills/personal-finance-visualizer/scripts/demo_data.py"
