@@ -2,27 +2,27 @@
 
 [简体中文](visual-guide.zh-CN.md) · [Project home](../README.md) · [Install](../README.md#install-as-an-agent-skill) · [Input schema](../skills/personal-finance-visualizer/references/schema.md)
 
-This is the interface included in version 1.1.0. Every screenshot uses the same entirely fictional USD dataset. The pictures are real report captures, not mockups. Click a picture to view its full-size file.
+This is the interface included in version 1.3.0. Every screenshot uses the same entirely fictional USD dataset. The pictures are real report captures, not mockups. Click a picture to view its full-size file.
 
 ## Spending: the full picture, then the categories
 
 The first row shows total personal spending, everyday spending and daily living cost. The second row separates fixed services, AI services and housing. Ring centers show totals; the rows below show the amounts behind each slice.
 
-Use the dropdown beside the title to change views. Day, week, month and year controls change the selected period; previous/next and the period dropdown move through the available data. Partial periods stop at the confirmed coverage date.
+Use the buttons beside the title to change views. Day, week, month and year controls change the selected period; previous/next and the date picker move through the available data. Partial periods stop at the confirmed coverage date.
 
 ![English spending page with three primary and three supporting rings](../demo/expenses-en.jpg)
 
 ## Merchant breakdown: where a category went
 
-Below the main rings, choose an expense group to inspect its merchants. The example shows groceries, dining and shopping. Unknown, transport and other everyday categories remain in the main totals and transaction details even when they are omitted from this lower merchant section.
+Below the main rings, inspect the everyday merchant cards. The example shows groceries, dining and shopping. Unknown, transport and other everyday categories remain in the main totals and transaction details even when they are omitted from this lower merchant section.
 
-The timeline shows everyday spending by day, or by month in the year view. Select a bar to inspect the transactions for that date or month.
+The timeline shows everyday spending by day, or by month in the year view. Switch between area and bar charts, then select a point or bar to inspect the transactions for that date or month.
 
 ![Merchant rings and the everyday spending timeline](../demo/merchants-en.jpg)
 
 ## Transaction details: inspect the original amounts
 
-Select a ring segment or a row beneath a ring to open its transactions. The window keeps the period, count and total visible, and supports search and continuous scrolling.
+Select a ring segment or a row beneath a ring to open its transactions. The window keeps the period, count and total visible, and supports expandable search, category/account filters, column sorting, filtered totals and continuous scrolling.
 
 Rows retain the original bank amount, personal share, personal spending and source reference. Confirmed shares affect spending only; the original bank amounts remain available. Display rounding can create small differences between the sum of displayed rows and the unrounded total.
 
@@ -54,7 +54,7 @@ Spending and cash movement answer different questions. A confirmed return can ca
 
 ## Explanations stay out of the way
 
-Focus or hover over an information icon for a card's definition. Open Notes at the bottom for the daily-average denominator, spending basis, refunds, transfers and source limitations. Details and notes start collapsed.
+Focus or hover over an information icon for a card's definition. Open More information, then Notes at the bottom for the daily-average denominator, spending basis, refunds, transfers and source limitations. Details and notes start collapsed.
 
 Daily averages include covered calendar days with no spending. Source gaps and uncertain classifications should stay visible in the report notes rather than being silently filled in.
 

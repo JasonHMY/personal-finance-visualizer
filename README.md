@@ -19,15 +19,17 @@ Turn user-provided finance records into an interactive local report. Explore spe
 
 It does not connect to banks, request credentials, move money or manage subscriptions. Raw bank CSV needs a known field mapping; PDF extraction depends on the agent's available tools and must be reconciled before use. This is not a universal bank-statement parser.
 
-The bundled template preserves a circular report layout: three primary spending rings, three secondary rings, merchant breakdowns, a timeline and collapsed details. The view dropdown sits beside the title. Income, transfers and overview each retain their own layout. Dark mode is the default, with a local light-mode toggle. The skill uses this template directly instead of redesigning the report for each request.
+The bundled template preserves a circular report layout: three primary spending rings, three secondary rings, merchant breakdowns, a timeline and collapsed details. View buttons sit beside the title. Income, transfers and overview each retain their own layout. Dark mode is the default, with a local light-mode toggle. The skill uses this template directly instead of redesigning the report for each request.
+
+Reorder cards within each view by dragging their headers or using the keyboard. Layout order is saved locally without plaintext category names. Use the date picker to choose covered days, weeks, months or years, and switch trends between area and bar charts. Secondary tables and notes stay inside collapsed More information.
 
 ## From a total to the payments behind it
 
-**Compare merchants within a category.** Switch between everyday, fixed, AI and housing spending. The merchant rings show which providers make up each category; the timeline below shows when everyday spending occurred.
+**Compare merchants within a category.** Everyday merchant cards stay below the main spending rings. The merchant rings show which providers make up each category; the timeline below shows when everyday spending occurred.
 
 ![Merchant breakdown and everyday spending timeline](demo/merchants-en.jpg)
 
-**Open the actual rows.** Select a ring segment or a category row to see dates, source references, original bank amounts and personal shares. Search inside the detail window without losing the selected period.
+**Open the actual rows.** Select a ring segment or a category row to see dates, source references, original bank amounts and personal shares. Search, filter by category or account, and sort columns inside the detail window without losing the selected period. The total follows the filtered rows.
 
 ![Searchable transaction details for a fictional merchant](demo/transaction-details-en.jpg)
 
@@ -95,7 +97,7 @@ python3 skills/personal-finance-visualizer/scripts/report.py --input /local/norm
 
 Read the [schema](skills/personal-finance-visualizer/references/schema.md) for fields, sign conventions, CSV headers, refund matches and transfer settlements. Read the [workflow](skills/personal-finance-visualizer/references/workflow.md) for extraction and reconciliation. Version 1 uses one currency per report and supports currencies with two decimal places; it does not convert currencies.
 
-Check coverage, duplicates and bank totals before charting. Unknown receipts stay transfers until classified. Personal shares require confirmation. Full-refund matches remove the purchase and refund from personal spending, including across months, while cash movement keeps the bank dates. Partial or unpaired refunds remain separate. Confirmed loan/reimbursement settlements adjust the related external transfers; matching names, amounts or dates alone is insufficient.
+Check coverage, duplicates and bank totals before charting. For unclear transaction purposes, categories or matches, the agent presents a confirmation table and asks before completing the affected charts. Existing answers are reused; an explicitly requested preview can retain pending labels. Unknown receipts stay transfers until classified. Personal shares require confirmation. Full-refund matches remove the purchase and refund from personal spending, including across months, while cash movement keeps the bank dates. Partial or unpaired refunds remain separate. Confirmed loan/reimbursement settlements adjust the related external transfers; matching names, amounts or dates alone is insufficient.
 
 To save a report explicitly:
 
@@ -143,4 +145,4 @@ Use only fictional fixtures for development, screenshots and bug reports. The ca
 
 ## License
 
-[MIT No Attribution (MIT-0)](LICENSE).
+[MIT No Attribution (MIT-0)](LICENSE). The EasyUI-derived interaction code retains its MIT copyright and license notice in `assets/app.js`.

@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.3.0 — 2026-10-22
+
+- Add searchable, filterable and sortable transaction details with filtered totals.
+- Add area/bar trends, a coverage-aware date picker and consistent, interruptible transitions.
+- Allow cards to be reordered across sections within each view, with keyboard support and local layout persistence.
+- Keep everyday merchant cards; place secondary tables and notes inside collapsed More information. Render collapsed details only when opened.
+- Ask users to clarify ambiguous transactions before completing affected charts; reuse confirmed answers.
+- Keep the accounting engine unchanged and preserve the bundled EasyUI MIT notice.
+
+- 明细支持搜索、分类与账户筛选、排序及筛选合计。
+- 增加面积／柱状趋势图、按资料覆盖范围选择日期的弹出控件，以及一致、可中断的切换动效。
+- 同一视图的卡片可跨区域重排，支持键盘操作并在本地保存布局。
+- 保留日常商户卡片，将附加表格与说明收入默认折叠的“更多信息”；明细展开时才生成。
+- 不明确的交易先向用户确认，再完成受影响的图表；复用已有回答。
+- 核算引擎不变，保留内置 EasyUI MIT 声明。
+
 ## 1.2.1 — 2026-10-21
 
 - Publish registry packages from the release ZIP allowlist to exclude Python test caches. Report behavior is unchanged from 1.2.0.
