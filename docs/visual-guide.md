@@ -38,7 +38,7 @@ An incoming payment is not automatically income. Unknown receipts stay in transf
 
 ## Transfers: movements and confirmed repayments
 
-Outgoing and incoming external transfers have separate rings. The three metrics below show net transferred out, confirmed repayments and confirmed loans outstanding. The illustrated year view is clipped to the demo's January–March coverage.
+Outgoing and incoming external transfers have separate rings. The three metrics below show net transferred out, confirmed repayments and confirmed loans outstanding. The illustrated month view shows March within the demo's January–March coverage.
 
 Only explicitly classified loans enter the loan metrics. Confirmed settlement allocations reduce the related outgoing and incoming records; partial repayment leaves the remainder. Similar names, dates or amounts do not create a match.
 

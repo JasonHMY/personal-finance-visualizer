@@ -1,5 +1,17 @@
 # Distribution channels and actual status
 
+## 22 October 2026 update: v1.3.0
+
+- [GitHub v1.3.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.3.0) is public at commit `ecc3d13`. The user-level installation is synchronized; all 12 files match byte for byte, with the previous installation backed up locally.
+- This release adds searchable, filterable and sortable details with filtered totals, area/bar trends, a date picker, per-view saved card layouts and collapsed More information. Unclear transactions are confirmed before affected final charts. Bilingual guidance and 10 fictional screenshots are refreshed; the accounting engine is unchanged.
+- Six Python tests, 12 calculation tests, JavaScript syntax and Skill validation passed. Handoff interaction evidence was reused, with fresh checks of all views, details, disclosures, languages, themes and narrow-screen screenshots. The package retains the EasyUI MIT notice.
+- Yangxiachi's download link and description now reference v1.3.0. Its downloaded ZIP matches the GitHub release byte for byte; this does not establish that the platform's separate version field changed.
+- ClawHub accepted the clean 12-file v1.3.0 package as `pending-publication`. The public latest version remained v1.2.1 after submission; no duplicate upload was made.
+- Skillstore accepted the fixed v1.3.0 tag. The [new receipt](https://skillstore.io/submissions/17a53e88-5ec9-45c4-a40a-da24eade9b7c) is Processing. No earlier open PR for this project remained before submission; public installation of the update is not yet verified.
+- OpenAgentSkill returned HTTP 500 for this update, without a success receipt. Ego Lite then confirmed HTTP 503 for the old status receipt and an unavailable directory. Acceptance is unknown; check existing records before retrying after service recovery.
+- Skillz.directory still points to GitHub. Installation-template [PR #4](https://github.com/keyman500/skills/pull/4) remains open, with Vercel awaiting maintainer authorization. Other historical review/account conditions are recorded below; this GitHub release does not verify their publication.
+- The existing daily check now follows v1.3.0, the original myagents application and the deployed Skillz.directory installation correction. No new accounts, payments, promotional messages or additional scheduled tasks were created.
+
 ## 22 October 2026 catalog follow-up
 
 - ClawHub and Skillstore now publicly provide v1.2.1.

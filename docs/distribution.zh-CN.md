@@ -1,5 +1,17 @@
 # 分发渠道与实际状态
 
+## 2026-10-22 更新：v1.3.0
+
+- [GitHub v1.3.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.3.0) 已公开，提交 `ecc3d13`。用户级安装已同步，12 个文件逐字节核对一致；原安装已留本机备份。
+- 新版加入明细搜索、筛选、排序及筛选合计，面积／柱状趋势图、日期选择器、各视图卡片布局保存，以及默认收起的“更多信息”。不明确的交易先向用户确认，再完成受影响图表。双语说明和 10 张纯虚构演示截图已更新，核算引擎未改变。
+- 6 项 Python 测试、12 项核算测试、JavaScript 语法和 Skill 格式检查通过。沿用交接包的交互验证，并回读四个视图、明细、折叠区、中英文、明暗主题及窄屏截图。发布包保留 EasyUI MIT 声明。
+- 养虾池下载链接及简介已更新到 v1.3.0，下载 ZIP 与 GitHub 发布包逐字节一致；平台独立 version 字段仍不能据此视为已更新。
+- ClawHub 已接收干净的 12 文件 v1.3.0 包，状态为 `pending-publication`；提交后公开 latest 仍为 v1.2.1，不重复上传。
+- Skillstore 已受理固定 v1.3.0 标签，[新回执](https://skillstore.io/submissions/17a53e88-5ec9-45c4-a40a-da24eade9b7c)为 Processing。提交前无本项目待审 PR；尚未确认新版公开可安装。
+- OpenAgentSkill 本批提交返回 HTTP 500，没有成功回执。随后在 Ego Lite 查询旧回执仍为 HTTP 503，目录页面明确显示暂不可用。不能确认新版是否受理，服务恢复后先查已有记录再决定补交。
+- Skillz.directory 公开条目仍指向 GitHub，安装模板修复 [PR #4](https://github.com/keyman500/skills/pull/4) 仍未合并，Vercel 仍需维护者授权。其他目录的历史审核和账号条件见下方记录，不以本次 GitHub 发布代替它们的上线核验。
+- 复用原每日检查任务，目标更新为 v1.3.0，并继续包含 myagents 原申请及 Skillz.directory 的线上安装说明验收。没有新建账号、付费、发送宣传消息或开启额外任务。
+
 ## 2026-10-22 后续渠道核验
 
 - ClawHub 和 Skillstore 当前均已公开 v1.2.1。
