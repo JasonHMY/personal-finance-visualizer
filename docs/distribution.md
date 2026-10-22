@@ -1,5 +1,13 @@
 # Distribution channels and actual status
 
+## 23 October 2026 verification
+
+- ClawHub now publicly serves v1.3.0. All 12 downloaded source files match the release byte for byte; the registry additionally includes `skill-card.md` and `_meta.json`.
+- Skillstore marks this submission Published. Its public page shows v1.3.0, content revision r4; all 12 source files in its catalog repository match this project.
+- GitHub's latest stable release and Yangxiachi's download remain v1.3.0. The Yangxiachi ZIP was verified again.
+- OpenAgentSkill's old receipt still returns 503 in Ego Lite and its directory remains unavailable. Acceptance of this update is unconfirmed; no duplicate submission was made. Exact-name search on myagents still returns no results; the original application remains pending.
+- Skillz.directory PR #4 remains OPEN and unmerged. Daily follow-up continues because the completion conditions are not yet met.
+
 ## 22 October 2026 update: v1.3.0
 
 - [GitHub v1.3.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.3.0) is public at commit `ecc3d13`. The user-level installation is synchronized; all 12 files match byte for byte, with the previous installation backed up locally.

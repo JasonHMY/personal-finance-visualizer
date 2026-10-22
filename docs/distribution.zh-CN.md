@@ -1,5 +1,13 @@
 # 分发渠道与实际状态
 
+## 2026-10-23 每日核验
+
+- ClawHub 公开最新版已变为 v1.3.0，实际下载中的 12 个源码文件与发布包逐字节一致；平台另外附加 `skill-card.md` 和 `_meta.json`。
+- Skillstore 本批回执已为 Published，公开页面显示 v1.3.0、内容修订 r4；目录仓库中的 12 个源码文件均与本项目一致。
+- GitHub 最新稳定版及养虾池下载仍为 v1.3.0，养虾池 ZIP 再次核对一致。
+- OpenAgentSkill 在 Ego Lite 查询旧回执仍返回 503，目录仍显示不可用；本批受理状态未确认，不重复提交。myagents 精确名称搜索仍无结果，继续原人工审核申请。
+- Skillz.directory PR #4 仍为 OPEN、未合并。每日检查继续，尚不满足全部完成条件。
+
 ## 2026-10-22 更新：v1.3.0
 
 - [GitHub v1.3.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.3.0) 已公开，提交 `ecc3d13`。用户级安装已同步，12 个文件逐字节核对一致；原安装已留本机备份。
