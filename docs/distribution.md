@@ -3,7 +3,7 @@
 ## 22 October 2026 catalog follow-up
 
 - ClawHub and Skillstore now publicly provide v1.2.1.
-- [Skillz.directory](https://www.skillz.directory/skills/personal-finance-visualizer) is live and links to this GitHub repository. Its generic installation template copies only SKILL.md and omits required scripts/assets; use the project README to install the complete directory. No author edit control was available, and no duplicate was submitted.
+- [Skillz.directory](https://www.skillz.directory/skills/personal-finance-visualizer) is live and links to this GitHub repository. Its generic installation template copies only SKILL.md and omits required scripts/assets; use the project README to install the complete directory. No author edit control was available, and no duplicate was submitted. [Upstream PR #4](https://github.com/keyman500/skills/pull/4) corrects the shared template to copy the entire skill directory and supporting files. The live fix awaits maintainer merge and deployment.
 - myagents exact-name search returned no match. Its submission page says manual review normally takes a few days; the existing submission is two days old. No rejection, request for changes or status-edit control was visible. The original application remains under follow-up.
 - OpenAgentSkill returned HTTP 503 and “Unable to read submission status” for the existing receipt from Ego Lite. Current review progress is unknown; an empty queue is not proof that the submission was lost.
 - skills.sh discovery is driven by genuine CLI install telemetry, not a manual review queue. A telemetry-disabled --list check found the skill successfully. No artificial installations or telemetry changes were used to manufacture indexing.

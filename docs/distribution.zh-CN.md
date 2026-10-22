@@ -3,7 +3,7 @@
 ## 2026-10-22 后续渠道核验
 
 - ClawHub 和 Skillstore 当前均已公开 v1.2.1。
-- [Skillz.directory](https://www.skillz.directory/skills/personal-finance-visualizer) 已公开，来源指向本项目 GitHub。平台通用安装模板只说明复制 SKILL.md，缺少必需脚本和资源；应按项目 README 安装完整 Skill 目录。页面没有作者修改入口，未重复提交。
+- [Skillz.directory](https://www.skillz.directory/skills/personal-finance-visualizer) 已公开，来源指向本项目 GitHub。平台通用安装模板只说明复制 SKILL.md，缺少必需脚本和资源；应按项目 README 安装完整 Skill 目录。页面没有作者修改入口，未重复提交。已定位为平台公共安装模板问题，并提交 [PR #4](https://github.com/keyman500/skills/pull/4)，改为复制完整 Skill 目录及支持文件；线上修复仍待维护者合并和部署。
 - myagents 精确名称搜索没有结果。提交页明确说明人工审核通常需要几天；原提交距今两天，没有可见的拒绝理由、补件请求或状态修改入口，继续等待原申请，不重复提交。
 - OpenAgentSkill 在 Ego Lite 内查询原回执仍返回 503 和 Unable to read submission status；当前无法确认审核进展，不据空队列判断申请丢失。
 - skills.sh 官方说明按真实 CLI 安装遥测自动收录，不是人工审核。已关闭遥测运行 --list，成功发现本项目唯一 Skill，源码结构可识别；不通过虚构安装量或开启遥测制造收录。
