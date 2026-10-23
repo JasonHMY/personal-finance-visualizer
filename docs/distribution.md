@@ -1,5 +1,15 @@
 # Distribution channels and actual status
 
+## 23 October 2026: v1.4.0
+
+- [GitHub v1.4.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.4.0) is public at source commit `cb01a2b`. All 12 installed skill files match the release package.
+- Adds continuous ring and value transitions, ordered list motion and optional merchant display names. Cards remain visible; reduced motion shows final values directly. Original merchant and bank descriptions remain available; the calculation engine is unchanged. All 18 tests, JavaScript syntax and skill validation passed, with a browser check using fictional data.
+- Yangxiachi's download now points to v1.4.0; the ZIP matches GitHub byte for byte. Its separate version field remains stale.
+- ClawHub accepted the complete 12-file package with pending publication. Public v1.4.0 installation is not yet verified. The older CLI lacks the current license parameter, so submission used the official API's MIT-0 acceptance field and retained the license file.
+- Skillstore accepted the fixed v1.4.0 tag; its [receipt](https://skillstore.io/submissions/2c266594-0cb4-4213-9a86-0c24770e2b09) is Processing. No matching open review PR existed before submission.
+- OpenAgentSkill's existing receipt still returns 503 in Ego Lite; no duplicate was submitted. Existing account, review and maintainer requirements for other channels remain as recorded below.
+- The existing daily task now follows v1.4.0 and continues daily download and user-feedback reports after publication completes.
+
 ## 23 October 2026 verification
 
 - ClawHub now publicly serves v1.3.0. All 12 downloaded source files match the release byte for byte; the registry additionally includes `skill-card.md` and `_meta.json`.

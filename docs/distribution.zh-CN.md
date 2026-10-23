@@ -1,5 +1,15 @@
 # 分发渠道与实际状态
 
+## 2026-10-23 更新：v1.4.0
+
+- [GitHub v1.4.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.4.0) 已公开，源码提交 `cb01a2b`；用户级安装的12个文件与发布包一致。
+- 加入连续圆环与金额过渡、有序列表动效和可选商户简称；卡片保持可见，减少动态效果时直接显示最终值。原始商户与银行描述保留，核算引擎不变。18项测试、JavaScript语法及Skill校验通过，并用纯虚构数据检查浏览器显示。
+- 养虾池下载地址已更新，ZIP与GitHub发布包逐字节一致；平台独立version字段仍为旧值。
+- ClawHub已受理完整12文件包，返回pending，尚未确认v1.4.0公开可安装。旧CLI不支持现行许可参数，本次使用官方API的MIT-0许可字段提交，保留完整许可证文件。
+- Skillstore已受理固定v1.4.0标签，[回执](https://skillstore.io/submissions/2c266594-0cb4-4213-9a86-0c24770e2b09)为Processing；提交前没有本项目待审PR。
+- OpenAgentSkill在Ego Lite查询旧回执仍返回503，未重复提交。其他渠道既有账号、审核及维护者条件沿下方记录，不视为新版已同步。
+- 原每日任务已改为跟进v1.4.0；全部上架后仍保留每日下载量与用户反馈简报。
+
 ## 2026-10-23 每日核验
 
 - ClawHub 公开最新版已变为 v1.3.0，实际下载中的 12 个源码文件与发布包逐字节一致；平台另外附加 `skill-card.md` 和 `_meta.json`。
