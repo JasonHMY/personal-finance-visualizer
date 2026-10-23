@@ -1,5 +1,15 @@
 # Distribution channels and actual status
 
+## 24 October 2026: daily verification
+
+- GitHub's latest stable release remains v1.4.1. ClawHub now publicly serves v1.4.1; all 12 source files in the downloaded archive match the release ZIP byte for byte. The registry adds `skill-card.md` and `_meta.json`.
+- Skillstore merged the v1.4.0 review PR #3897. Its old receipt is Published, the public page shows v1.4.0/r5, and all 12 catalog source files match that release. After confirming no matching open review PR, the fixed v1.4.1 tag was submitted. The [new receipt](https://skillstore.io/submissions/fd268cd7-ac17-4f40-be3a-5efc251d257c) is Processing; public v1.4.1 availability is not yet verified.
+- Yangxiachi still links to the previously verified v1.4.1 ZIP.
+- OpenAgentSkill's existing receipt still returns 503 in Ego Lite; no duplicate was submitted. The myagents website now shows Deployment Paused, so the existing application cannot be checked. This is not treated as a rejection.
+- Skillz.directory PR #4 remains open, and its public installation text and both command examples still refer only to SKILL.md. The online fix is incomplete. The corresponding skills.sh page still returns 404; no installs or download metrics were manufactured.
+- Observed public downloads: ClawHub 224 (+48), Skillstore 5 (unchanged), GitHub release ZIPs 10 (+1, including 1 for v1.4.1), and Yangxiachi 0 (unchanged). The additional GitHub download is our earlier release verification, not evidence of a new external user. No new user comments or issues were observed; Skillstore's 87 is a platform score.
+- The existing daily task continues v1.4.1 review follow-up and the original outstanding items, plus ongoing download and feedback reports. No new automation was created.
+
 ## 23 October 2026: v1.4.1
 
 - [GitHub v1.4.1](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.4.1) is public at source commit `8c23cd2`. All 12 installed files match the release package; Yangxiachi's download ZIP matches GitHub byte for byte.

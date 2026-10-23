@@ -1,5 +1,15 @@
 # 分发渠道与实际状态
 
+## 2026-10-24 每日核验
+
+- GitHub最新稳定版仍为v1.4.1。ClawHub已公开v1.4.1，实际下载包中的12个源码文件与发布ZIP逐字节一致；平台附加`skill-card.md`和`_meta.json`。
+- Skillstore的v1.4.0审核PR #3897已合并，旧回执为Published，公开页为v1.4.0/r5；目录仓库中的12个源码文件与v1.4.0发布包一致。确认没有本项目待审PR后，已提交固定v1.4.1标签，[新回执](https://skillstore.io/submissions/fd268cd7-ac17-4f40-be3a-5efc251d257c)为Processing，尚未确认新版公开。
+- 养虾池下载仍指向此前已核验的v1.4.1 ZIP。
+- OpenAgentSkill旧回执在Ego Lite仍返回503，未重复提交。myagents页面现在显示Deployment Paused，无法核实原申请；保留既有申请，不据此认定被拒绝。
+- Skillz.directory PR #4仍OPEN；公开安装正文与两处命令仍只要求SKILL.md，线上修复未完成。skills.sh对应页面仍404，未制造安装或下载统计。
+- 本次检查时公开下载计数：ClawHub 224（较上次+48）、Skillstore 5（不变）、GitHub Release ZIP累计10（+1，其中v1.4.1为1）、养虾池0（不变）。GitHub新增的一次是本项目此前的发布核验下载，不能当作新增外部用户。未见新用户评论或Issues；Skillstore 87分是平台评分。
+- 原每日任务继续跟进v1.4.1提审与原待办，并持续提供下载及反馈简报；未新增任务。
+
 ## 2026-10-23 更新：v1.4.1
 
 - [GitHub v1.4.1](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.4.1) 已公开，源码提交 `8c23cd2`。用户级安装12个文件与发布包一致；养虾池下载ZIP与GitHub逐字节一致。
