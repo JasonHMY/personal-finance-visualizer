@@ -1,5 +1,14 @@
 # Distribution channels and actual status
 
+## 23 October 2026: v1.4.1
+
+- [GitHub v1.4.1](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.4.1) is public at source commit `8c23cd2`. All 12 installed files match the release package; Yangxiachi's download ZIP matches GitHub byte for byte.
+- Phones up to 700px use two half-scale ring/metric cards per row with 12px gaps. Timelines and details stay full-width; drag coordinates account for zoom. The calculation engine and template are unchanged. Bilingual documentation, visual guides and the fictional phone screenshot are updated.
+- All 6 Python tests, 12 accounting tests, JavaScript syntax and skill validation passed. Browser checks confirmed two columns without overflow at 320/390/430px and the original desktop grid; the phone screenshot was inspected. Drag swapping and detail checks rely on the approved handoff evidence. This round's emulated pointer input did not reliably hit the drag handle and is not counted as a passed retest.
+- ClawHub accepted the complete 12-file package with pending publication; public installation of this version is not yet verified.
+- Skillstore's v1.4.0 submission is In Review with [PR #3897](https://github.com/aiskillstore/marketplace/pull/3897) still open. No duplicate v1.4.1 submission was made; submit the fixed new tag after that review completes.
+- OpenAgentSkill's existing receipt still returns 503 in the browser; no duplicate was submitted. Other channel requirements remain unchanged. The existing daily task now follows v1.4.1 and continues download and user-feedback checks.
+
 ## 23 October 2026: v1.4.0
 
 - [GitHub v1.4.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.4.0) is public at source commit `cb01a2b`. All 12 installed skill files match the release package.

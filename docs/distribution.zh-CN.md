@@ -1,5 +1,14 @@
 # 分发渠道与实际状态
 
+## 2026-10-23 更新：v1.4.1
+
+- [GitHub v1.4.1](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.4.1) 已公开，源码提交 `8c23cd2`。用户级安装12个文件与发布包一致；养虾池下载ZIP与GitHub逐字节一致。
+- 手机700px及以下采用半比例双列圆环卡和金额卡，间距12px，趋势图与明细保持整行；拖拽坐标按缩放补偿。计算引擎和模板不变。双语说明、图文指南及纯虚构手机截图已更新。
+- 6项Python测试、12项核算测试、JS语法和Skill校验通过。浏览器确认320/390/430px双列且无横向溢出、桌面保留原网格，并检查手机截图；拖拽交换与明细验证沿用交接包结果，本轮浏览器设备仿真输入未可靠命中拖拽手柄，不把该尝试算作复测通过。
+- ClawHub已受理完整12文件包，publicationStatus为pending，未确认新版公开可安装。
+- Skillstore的v1.4.0原申请已进入In Review，[PR #3897](https://github.com/aiskillstore/marketplace/pull/3897)仍OPEN。本次未重复提交v1.4.1；原申请结束后再提交固定新版标签。
+- OpenAgentSkill旧回执在浏览器仍返回503，未重复提交。其他渠道既有条件保持。原每日任务已更新为v1.4.1，继续下载量与用户反馈检查。
+
 ## 2026-10-23 更新：v1.4.0
 
 - [GitHub v1.4.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.4.0) 已公开，源码提交 `cb01a2b`；用户级安装的12个文件与发布包一致。
