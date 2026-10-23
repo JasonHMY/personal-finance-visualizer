@@ -8,6 +8,9 @@ Turn user-provided finance records into an interactive local report. Explore spe
 
 ![English spending view using fictional demo data](demo/expenses-en.jpg)
 
+
+Cards stay visible during transitions. Rings and amounts animate continuously; list entries appear in order. Optional `merchantDisplayNames` provides short display/search names without changing original merchants, grouping or accounting.
+
 ## What it does
 
 - Four views: overview, spending, income and transfers.

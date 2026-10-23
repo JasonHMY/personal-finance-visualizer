@@ -1734,5 +1734,8 @@
   "notes": [
     "Every name, date, amount and record in this demo is invented."
   ],
-  "demo": true
+  "demo": true,
+  "merchantDisplayNames": {
+    "Example village grocer": "Village grocer"
+  }
 }

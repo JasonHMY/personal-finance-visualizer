@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.0 — 2026-10-23
+
+- Keep cards visible while rings, center totals and identity-matched list amounts transition continuously. Stagger list entries; refine dialogs, disclosures, menus and tooltips with reduced-motion support.
+- Add optional merchantDisplayNames for display and search only. Preserve original merchants, descriptions, grouping and accounting.
+- 卡片保持可见，圆环、中心总额和按身份对应的列表金额连续过渡；列表依次渐显，完善弹窗、折叠项、菜单及提示，支持减少动态效果。
+- 增加可选 merchantDisplayNames，仅用于简称展示与搜索；保留原商户、描述、分组及核算。
+
 ## 1.3.0 — 2026-10-22
 
 - Add searchable, filterable and sortable transaction details with filtered totals.
