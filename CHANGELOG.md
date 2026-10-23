@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.1 — 2026-10-23
+
+- On phones up to 700px wide, display two proportional half-scale ring/metric cards per row with 12px gaps; keep timelines and details full-width. Compensate drag positions and move transitions for card zoom. Desktop layout and accounting are unchanged.
+- 手机宽度700px及以下时，圆环卡和金额卡按一半比例双列显示，间距12px；趋势图和明细保持整行。补偿缩放后的拖拽坐标和位移动画，桌面布局及核算口径不变。
+
 ## 1.4.0 — 2026-10-23
 
 - Keep cards visible while rings, center totals and identity-matched list amounts transition continuously. Stagger list entries; refine dialogs, disclosures, menus and tooltips with reduced-motion support.

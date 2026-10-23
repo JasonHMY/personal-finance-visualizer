@@ -8,9 +8,9 @@ All records, names, dates and amounts are invented. Nothing is sampled, anonymiz
 python3 skills/personal-finance-visualizer/scripts/demo_data.py > demo/sample.json
 ```
 
-These ten screenshots were captured from the 1.3.0 report using only that fixture. They show the actual UI, including expanded detail and note states. The language switch translates controls; original merchant descriptions and categories stay in the supplied language, apart from the demo's built-in example labels.
+The phone screenshot is from 1.4.1; the nine desktop screenshots are from 1.3.0. All use only that fixture. They show the actual UI, including expanded detail and note states. The language switch translates controls; original merchant descriptions and categories stay in the supplied language, apart from the demo's built-in example labels.
 
-以下十张截图均来自1.3.0 报表，只使用上述样例。它们展示实际界面，包括展开的明细与说明。语言切换会翻译控件；除演示内置的示例标签外，原始商户说明和分类保留输入语言。
+手机截图来自1.4.1版，其余九张桌面截图来自1.3.0版，均只使用上述样例。它们展示实际界面，包括展开的明细与说明。语言切换会翻译控件；除演示内置的示例标签外，原始商户说明和分类保留输入语言。
 
 | File / 文件 | View / 内容 |
 | --- | --- |

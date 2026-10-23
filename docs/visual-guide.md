@@ -2,7 +2,7 @@
 
 [简体中文](visual-guide.zh-CN.md) · [Project home](../README.md) · [Install](../README.md#install-as-an-agent-skill) · [Input schema](../skills/personal-finance-visualizer/references/schema.md)
 
-This is the interface included in version 1.3.0. Every screenshot uses the same entirely fictional USD dataset. The pictures are real report captures, not mockups. Click a picture to view its full-size file.
+Desktop screenshots show version 1.3.0; the phone screenshot shows the two-column layout in 1.4.1. Every screenshot uses the same entirely fictional USD dataset. The pictures are real report captures, not mockups. Click a picture to view its full-size file.
 
 ## Spending: the full picture, then the categories
 
@@ -70,7 +70,7 @@ The theme control switches between dark and light locally, without a network req
 
 ![Light theme on the spending page](../demo/expenses-light-en.jpg)
 
-At narrow widths the cards stack into one column and controls wrap. Transaction tables can scroll horizontally to retain their fields.
+At widths up to 700px, ring and metric cards use two columns at half scale with 12px gaps. Timelines and details retain the full row, and controls wrap. Transaction tables can scroll horizontally to retain their fields.
 
 <img src="../demo/mobile-en.jpg" alt="Spending page at a narrow screen width" width="360">
 

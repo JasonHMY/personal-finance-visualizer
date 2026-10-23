@@ -13,6 +13,8 @@ Cards stay visible during transitions. Rings and amounts animate continuously; l
 
 ## What it does
 
+On phones (700px or narrower), ring and metric cards use two columns at half scale with a 12px gap. Timelines and details keep the full row; drag reordering accounts for the scaled cards. Desktop layout is unchanged.
+
 - Four views: overview, spending, income and transfers.
 - Daily, weekly, monthly and yearly periods, clipped to confirmed data coverage. Weeks start on Monday.
 - English and Simplified Chinese controls, with transaction details and compact, expandable explanations.
