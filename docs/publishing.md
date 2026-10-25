@@ -6,6 +6,20 @@ The canonical source is [JasonHMY/personal-finance-visualizer](https://github.co
 
 ## Release / 发布
 
+### Privacy review before every upload / 每次上传前的隐私审核
+
+Publish only reusable functionality, necessary documentation and examples invented from scratch. This boundary covers the publisher and every Skill user. Never include personal identity or contact information, account identifiers, credentials, real records or transaction excerpts, private URLs, saved personal settings, reports, logs, caches, or screenshots that expose them. Renaming a real record does not make it fictional.
+
+只发布通用功能、必要说明和从零构造的虚构示例。保护范围包括发布者和所有Skill使用者；不得包含个人身份与联系方式、账户标识、凭据、真实记录或交易摘录、私人网址、个人设置、报告、日志、缓存及相关截图。真实记录改名后仍不能作为虚构示例。
+
+Review the exact outgoing Git diff/file list, ZIP entries, catalog description and attachments. Trace fixtures to fictional generators and visually inspect public images, including browser chrome and metadata. Check text for accidental credentials, identifying paths and private links, but do not treat pattern scans or a clean allowlist as proof of absence. Read only the approved public materials; do not collect private records for this review. Keep required public license attribution.
+
+逐次审核实际发出的Git差异和文件清单、ZIP内容、平台描述与附件。核对样例来自虚构生成器，查看截图中的正文、浏览器界面和元数据；检查文本中误带的凭据、识别性路径和私人链接。扫描和白名单只是辅助，不能代替内容审核。仅检查获准的公开材料，不为审核额外收集私人记录；保留必要的公开许可署名。
+
+If a file's provenance or contents are uncertain, remove it or resolve the uncertainty before upload. Save the exact reviewed file list and artifact hashes in local release evidence outside the public repository. Any subsequent change requires a review of the affected files. Compare uploaded artifacts with that reviewed version before reporting completion.
+
+来源或内容有疑点的文件，先移除或查明，再上传。把审核文件清单和产物哈希保存在公开仓库之外的本机发布记录中；后续内容变化后重新检查受影响文件。上传后比对已审版本，再报告完成。
+
 1. Change the version in `SKILL.md` metadata and `scripts/check_update.py`, and describe changes in `CHANGELOG.md`. Keep the two README files equivalent.
 2. Run the Python and Node tests, inspect the UI with fictional data, and review the exact public file list. No personal inputs, reports, captures, logs or local paths may be committed.
 3. Commit reviewed source, tag the release and build the ZIP using the explicit package allowlist. Attach the ZIP to a GitHub release. Verify the remote files and release before reporting success.
