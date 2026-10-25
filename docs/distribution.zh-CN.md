@@ -1,5 +1,14 @@
 # 分发渠道与实际状态
 
+## 2026-10-25 发布：v1.5.0 每日可花预算
+
+- [GitHub v1.5.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.5.0) 已公开，源码提交`e02e08e`。用户级安装12文件与发布包一致，原安装留有本机备份；养虾池下载已更新为v1.5.0并逐字节核对ZIP。
+- 新增每日可花额度、自然月预算、历史/手动类别比例和设置编辑。独立报表设置只在当前页面内存生效；跨设备保存需单独授权私密托管、登录保护、同源API和私密存储，不默认自动云同步。可选通用适配器在`examples/private-budget-service/`，未执行部署。
+- 26项新增预算/API测试、18项原有测试、JS语法和Skill校验通过。虚构演示核对设置修改、刷新恢复、无预算localStorage及390px无页面横向溢出；中英文和手机截图已更新。未使用真实财务数据。
+- ClawHub已受理12文件v1.5.0包，publicationStatus为pending；Skillstore固定v1.5.0标签已受理，[新回执](https://skillstore.io/submissions/b720cd58-e673-4896-8201-590c248840f7)为Processing。提交前没有本项目待审PR；两处尚未确认新版公开可安装。
+- OpenAgentSkill在浏览器查询旧回执仍503，myagents网站仍暂停部署，未重复提交。Skillz.directory安装模板PR #4仍OPEN，其他渠道既有账号、验证与维护者条件保持。
+- 原每日任务已改为跟进v1.5.0，继续下载量和用户反馈简报，没有新增自动任务或宣传消息。
+
 ## 2026-10-25 每日核验
 
 - GitHub最新稳定版仍为v1.4.1；ClawHub公开latest及养虾池下载链接保持v1.4.1，沿用已核验包内容，本轮不重复下载。

@@ -1,5 +1,14 @@
 # Distribution channels and actual status
 
+## 25 October 2026: v1.5.0 daily allowance release
+
+- [GitHub v1.5.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.5.0) is public at source commit `e02e08e`. All 12 installed files match the release package, with a local backup retained. Yangxiachi now downloads v1.5.0; its ZIP matches byte for byte.
+- Adds daily allowance, calendar-month budgets, historical/manual category shares and settings editing. Standalone settings remain in page memory. Cross-device persistence requires separately authorized private hosting, authentication, same-origin APIs and private storage; it is not automatic cloud sync. The generic adapter is in `examples/private-budget-service/`; no deployment was performed.
+- All 26 new budget/API tests, 18 existing tests, JavaScript syntax and skill validation passed. Fictional browser checks covered settings changes, reset on reload, no budget localStorage and no page overflow at 390px. English, Chinese and phone screenshots are updated; no real financial data was used.
+- ClawHub accepted the 12-file v1.5.0 package with pending publication. Skillstore accepted the fixed v1.5.0 tag; its [new receipt](https://skillstore.io/submissions/b720cd58-e673-4896-8201-590c248840f7) is Processing. No matching open review PR existed before submission. Public installation of this version is not yet verified on either platform.
+- OpenAgentSkill's existing receipt still returns 503 in the browser, and myagents remains paused; neither received a duplicate. Skillz.directory's installation-template PR #4 remains open. Existing account, verification and maintainer requirements remain unchanged elsewhere.
+- The existing daily task now follows v1.5.0 and continues download and user-feedback reports. No new automation or promotional message was created.
+
 ## 25 October 2026: daily verification
 
 - GitHub's latest stable release remains v1.4.1. ClawHub's public latest and Yangxiachi's download link remain v1.4.1; previously verified packages were not downloaded again.
