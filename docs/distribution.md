@@ -1,5 +1,13 @@
 # Distribution channels and actual status
 
+## 26 October 2026: daily verification
+
+- GitHub's latest stable release and Yangxiachi's download link are v1.5.0. Skillstore v1.5.0/r7 is public, its [receipt](https://skillstore.io/submissions/b720cd58-e673-4896-8201-590c248840f7) is Published and PR #3924 is merged. All 12 catalog source files match the reviewed release package byte for byte.
+- ClawHub's public latest remains v1.4.1. The publisher's version list includes v1.5.0, but anonymous version lookup and download both return 404. Public installation is not verified; no duplicate was submitted.
+- Downloads: ClawHub All time 249 (+11), Skillstore 6 (+1), GitHub ZIPs 19 total (+9, including 2 for current v1.5.0), Yangxiachi 0 (unchanged). ClawHub's All time tab was explicitly checked; its separate 30d figure is not used as a lifetime total. Counts may include previous verification downloads and are not unique users.
+- No new user comments or GitHub issues were observed. Skillstore's 87 is a platform score. ClawHub still reports 1 install-reporting user and 0 comments; GitHub has 1 star and Yangxiachi has 0 reviews.
+- OpenAgentSkill's old receipt still returns 503 in the browser, and myagents remains paused. Skillz.directory PR #4 remains open with SKILL.md-only installation instructions unchanged; the corresponding skills.sh page returns 404. The existing daily task continues without duplicate applications or messages.
+
 ## 25 October 2026: v1.5.0 daily allowance release
 
 - [GitHub v1.5.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.5.0) is public at source commit `e02e08e`. All 12 installed files match the release package, with a local backup retained. Yangxiachi now downloads v1.5.0; its ZIP matches byte for byte.

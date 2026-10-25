@@ -1,5 +1,13 @@
 # 分发渠道与实际状态
 
+## 2026-10-26 每日核验
+
+- GitHub最新稳定版及养虾池下载链接为v1.5.0。Skillstore v1.5.0/r7已公开，[回执](https://skillstore.io/submissions/b720cd58-e673-4896-8201-590c248840f7)为Published，PR #3924已合并；目录12个源码文件与已审发布包逐字节一致。
+- ClawHub公开latest仍为v1.4.1。发布者版本列表可见v1.5.0，但匿名版本查询和下载均返回404，尚未公开可安装；未重复提交。
+- 下载计数：ClawHub All time 249（+11）、Skillstore 6（+1）、GitHub ZIP累计19（+9，当前v1.5.0为2）、养虾池0（不变）。ClawHub网页已切换All time核对；30d图表数字不混作累计。计数可能含此前核验下载，不能解释为独立用户。
+- 未见新增用户评论或GitHub Issues。Skillstore87分为平台评分；ClawHub上报安装用户仍1、0评论，GitHub1星标，养虾池0评价。
+- OpenAgentSkill旧回执在浏览器仍503，myagents仍暂停部署。Skillz.directory PR #4仍OPEN，线上安装说明仍只写SKILL.md；skills.sh对应页404。继续原每日任务，未重复申请或发送消息。
+
 ## 2026-10-25 发布：v1.5.0 每日可花预算
 
 - [GitHub v1.5.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.5.0) 已公开，源码提交`e02e08e`。用户级安装12文件与发布包一致，原安装留有本机备份；养虾池下载已更新为v1.5.0并逐字节核对ZIP。
