@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    {"source": "/", "destination": "/api/report"},
+    {"source": "/index.html", "destination": "/api/report"}
+  ],
+  "headers": [{"source": "/(.*)", "headers": [
+    {"key": "Cache-Control", "value": "private, no-store"},
+    {"key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive"}
+  ]}]
+}

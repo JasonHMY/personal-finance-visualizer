@@ -85,3 +85,11 @@ python3 skills/personal-finance-visualizer/scripts/report.py --demo --language e
 命令运行期间，报表保留在进程内存中；结束后按 Ctrl+C 停止。使用自己的记录时，按[输入格式](../skills/personal-finance-visualizer/references/schema.md)和[核对流程](../skills/personal-finance-visualizer/references/workflow.md)处理。只有决定保留本地报表时才导出。
 
 独立报表不含远程资源或分析服务。Agent 宿主如何处理提示词和提供的文件取决于其设置，见[隐私与边界](../README.zh-CN.md#隐私与边界)。报表模板不包含 ChatGPT 宿主的编辑、Ask ChatGPT 和发布工具。
+
+## 可选每日可花
+
+v1.5.0增加每日额度、上限编辑及历史或手动类别比例。独立报表设置仅在当前页面有效；跨设备保存需要明确授权的私密服务，见[适配器说明](../examples/private-budget-service/README.md)。
+
+![虚构数据每日可花](../demo/budget-zh.jpg)
+
+<img src="../demo/budget-mobile.jpg" alt="虚构数据手机每日可花" width="360">

@@ -85,3 +85,11 @@ python3 skills/personal-finance-visualizer/scripts/report.py --demo --language e
 The report stays in process memory while the command runs. Stop it with Ctrl+C when finished. For your own records, follow the [input schema](../skills/personal-finance-visualizer/references/schema.md) and [reconciliation workflow](../skills/personal-finance-visualizer/references/workflow.md). Export only when you choose to keep a local report.
 
 The standalone report has no remote assets or analytics. Your agent host's handling of prompts and supplied files depends on its settings; see [privacy and limits](../README.md#privacy-and-limits). The report template does not include ChatGPT's host editing, Ask ChatGPT or publishing tools.
+
+## Optional daily allowance
+
+Version 1.5.0 adds a daily allowance view with editable limits and historical or manual category shares. Standalone edits last for the page session only. Cross-device persistence requires an explicitly authorized private service; see the [adapter guide](../examples/private-budget-service/README.md).
+
+![Fictional daily allowance](../demo/budget-en.jpg)
+
+<img src="../demo/budget-mobile.jpg" alt="Fictional daily allowance on a phone" width="360">

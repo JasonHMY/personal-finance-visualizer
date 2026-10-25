@@ -38,3 +38,23 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Explicit public budget demo and optional generic adapter.
+!demo/budget_demo.py
+!demo/budget-en.jpg
+!demo/budget-zh.jpg
+!demo/budget-mobile.jpg
+!tests/budget-api.test.mjs
+!examples/
+!examples/private-budget-service/
+!examples/private-budget-service/api/
+!examples/private-budget-service/lib/
+!examples/private-budget-service/README.md
+!examples/private-budget-service/.vercelignore
+!examples/private-budget-service/package.json
+!examples/private-budget-service/package-lock.json
+!examples/private-budget-service/vercel.json
+!examples/private-budget-service/api/budget.mjs
+!examples/private-budget-service/api/report.mjs
+!examples/private-budget-service/lib/budget-handler.mjs
+!examples/private-budget-service/lib/finance-engine.cjs

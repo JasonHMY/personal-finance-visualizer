@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.0 — 2026-10-25
+
+- Add optional daily allowance, calendar-month budgeting, historical or manual category shares, and settings editing. Existing refund and personal-share rules apply; incomplete coverage blocks a current allowance.
+- Standalone settings remain in page memory. Cross-device persistence requires separately authorized private hosting, authenticated same-origin APIs and private storage. The optional adapter is provided separately in the repository.
+- 新增可选每日可花额度、自然月预算、历史或手动类别比例，以及设置编辑。沿用退款和个人分摊口径，资料覆盖不足时不显示可用的今日额度。
+- 独立报表设置只在当前页面内存生效；跨设备保存需单独授权私密托管、登录保护、同源API和私密存储。可选适配器单独放在仓库示例中。
+
 ## 1.4.1 — 2026-10-23
 
 - On phones up to 700px wide, display two proportional half-scale ring/metric cards per row with 12px gaps; keep timelines and details full-width. Compensate drag positions and move transitions for card zoom. Desktop layout and accounting are unchanged.

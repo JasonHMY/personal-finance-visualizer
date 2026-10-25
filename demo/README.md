@@ -24,3 +24,9 @@ The phone screenshot is from 1.4.1; the nine desktop screenshots are from 1.3.0.
 | `notes-en.jpg` | Expanded explanations / 展开的说明 |
 | `expenses-light-en.jpg` | Light theme / 浅色主题 |
 | `mobile-en.jpg` | Narrow-screen layout / 窄屏布局 |
+
+## Daily allowance / 每日可花
+
+`budget-en.jpg`, `budget-zh.jpg` and `budget-mobile.jpg` show v1.5.0 using only `budget_demo.py`. It creates fictional records relative to the current UTC date and never reads personal data. Settings and amounts are examples, not recommended defaults. Screenshots are dated snapshots.
+
+上述三张预算截图来自v1.5.0，仅使用 `budget_demo.py` 按当前UTC日期生成的虚构记录，不读取个人数据。金额和设置都是示例，不是推荐默认值；截图保留拍摄时状态。

@@ -11,6 +11,20 @@ Turn user-provided finance records into an interactive local report. Explore spe
 
 Cards stay visible during transitions. Rings and amounts animate continuously; list entries appear in order. Optional `merchantDisplayNames` provides short display/search names without changing original merchants, grouping or accounting.
 
+## Daily allowance
+
+Optionally add a daily upper limit and a calendar-month budget. The report spreads the remaining budget over remaining days, applies confirmed personal shares and refunds, and offers historical or manual category reference shares. Incomplete month coverage or data older than yesterday blocks a usable current allowance. Choose the limit, currency, timezone and included groups with the user; the USD 40 demo is fictional.
+
+Standalone settings apply only in the current page's memory. Cross-device saving is an optional integration requiring separately authorized private hosting, login protection, a same-origin API and private storage. It is not enabled by installing this Skill. See the [adapter guide](examples/private-budget-service/README.md).
+
+```bash
+python3 demo/budget_demo.py | python3 skills/personal-finance-visualizer/scripts/report.py --input -
+```
+
+Open the resulting local URL and choose **Daily allowance**. The generator uses invented records dated relative to today in UTC; it never reads financial files.
+
+![Daily allowance with entirely fictional records](demo/budget-en.jpg)
+
 ## What it does
 
 On phones (700px or narrower), ring and metric cards use two columns at half scale with a 12px gap. Timelines and details keep the full row; drag reordering accounts for the scaled cards. Desktop layout is unchanged.
@@ -114,7 +128,7 @@ The HTML contains transaction details. Save it to an authorized local location o
 
 ## Privacy and limits
 
-The renderer and local report have no telemetry, remote fonts/scripts, analytics or external requests. Default delivery serves the report from process memory on `127.0.0.1` through a tokenized URL. There are no automatic report files, financial logs, screenshots or memory writebacks. Keep the URL private and stop the server when finished.
+The renderer has no telemetry, remote fonts/scripts or analytics. Standalone reports make no external requests; an explicitly configured budget endpoint uses same-origin requests only. Default delivery serves the report from process memory on `127.0.0.1` through a tokenized URL. There are no automatic report files, financial logs, screenshots or memory writebacks. Keep the URL private and stop the server when finished.
 
 This does not guarantee fully offline processing or complete erasure. Your agent host may send data to its model provider and retain prompts, tool calls or supplied files according to its configuration. Your browser may retain history/cache, and an explicit HTML export persists until you remove it. Use only records and tools you have authorized. The skill does not publish or upload personal reports, and it never checks for updates during financial processing.
 
