@@ -1,5 +1,14 @@
 # Distribution channels and actual status
 
+## 27 October 2026: daily verification
+
+- The latest stable release remains v1.5.0. GitHub, Skillstore v1.5.0/r7 and Yangxiachi's download link are unchanged. Prior byte-for-byte package checks were reused; no package was downloaded again.
+- ClawHub's public latest remains v1.4.1. The publisher's version list includes v1.5.0, but version lookup and download still return 404. The existing application remains under follow-up; nothing was uploaded again.
+- Downloads: ClawHub All time 260 (+11), Skillstore 6, GitHub Release ZIPs 19 total (2 for current v1.5.0), Yangxiachi 0. The latter three are unchanged. ClawHub's separate 30d count of 270 is not used for lifetime comparison. Counts may include earlier verification downloads and do not represent unique users.
+- No new user feedback or GitHub issues was observed. ClawHub reports 0 comments, 1 install-reporting user and 0 stars; GitHub has 1 star and Yangxiachi has 0 reviews. Skillstore's 87 is a platform score, not a user rating.
+- OpenAgentSkill's original receipt still returns 503 in Ego Lite, and myagents remains paused, so review outcomes cannot be verified. Skillz.directory PR #4 remains OPEN; the live installation body and both Personal Use and Project/Team Use instructions still mention only SKILL.md. No author correction entry was found. The exact skills.sh listing still returns 404.
+- The existing daily follow-up and download/feedback report continue. No duplicate applications, artificial installation statistics or external messages were created.
+
 ## 26 October 2026: daily verification
 
 - GitHub's latest stable release and Yangxiachi's download link are v1.5.0. Skillstore v1.5.0/r7 is public, its [receipt](https://skillstore.io/submissions/b720cd58-e673-4896-8201-590c248840f7) is Published and PR #3924 is merged. All 12 catalog source files match the reviewed release package byte for byte.

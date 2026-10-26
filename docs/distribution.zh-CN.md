@@ -1,5 +1,14 @@
 # 分发渠道与实际状态
 
+## 2026-10-27 每日核验
+
+- 最新稳定版仍为v1.5.0。GitHub、Skillstore v1.5.0/r7及养虾池下载链接保持不变；沿用此前已完成的发布包逐字节核对，本轮未重复下载。
+- ClawHub公开latest仍为v1.4.1。发布者版本列表可见v1.5.0，但版本查询与下载仍返回404，继续原申请，不重复上传。
+- 下载计数：ClawHub All time 260（+11）、Skillstore 6、GitHub Release ZIP累计19（当前v1.5.0为2）、养虾池0；后三项不变。ClawHub另列的30d数值270不用于累计比较。计数可能含此前核验下载，不代表独立用户。
+- 未见新增用户反馈或GitHub Issues。ClawHub仍为0评论、1个上报安装用户、0星标；GitHub1星标；养虾池0评价。Skillstore87分是平台评分，不是用户评分。
+- OpenAgentSkill原回执在Ego Lite仍503，myagents仍暂停部署，无法核实审核结果。Skillz.directory PR #4仍OPEN，线上正文及Personal Use、Project/Team Use两处指引仍只写SKILL.md，未找到作者更正入口。skills.sh对应条目仍404。
+- 保留原每日跟进与下载反馈简报；未重复申请、制造安装统计或发送对外消息。
+
 ## 2026-10-26 每日核验
 
 - GitHub最新稳定版及养虾池下载链接为v1.5.0。Skillstore v1.5.0/r7已公开，[回执](https://skillstore.io/submissions/b720cd58-e673-4896-8201-590c248840f7)为Published，PR #3924已合并；目录12个源码文件与已审发布包逐字节一致。
