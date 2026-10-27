@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Print a wholly fictional, current-date budget demo; never read user files."""
 import calendar
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 import json
 
 
@@ -30,10 +30,14 @@ def make_demo(today=None):
                                      amount='-'+amount, kind='expense', group=group, category=category,
                                      description=merchant, account='Fictional checking', share=1,
                                      source='Invented budget demonstration'))
+    transactions.append(dict(id='budget-demo-pending', date=today.isoformat(),
+                             amount='-12.50', kind='expense', group='daily', category='Groceries',
+                             description='Fictional pending grocery purchase', account='Fictional checking',
+                             share=1, bankStatus='pending', source='Invented budget demonstration'))
     return dict(schemaVersion=1, currency='USD', language='en', demo=True,
-                coverage=dict(start=start.isoformat(), end=(today-timedelta(days=1)).isoformat()),
+                coverage=dict(start=start.isoformat(), end=today.isoformat()),
                 transactions=transactions, refunds=[], settlements=[],
-                notes=['Every record and setting is invented. Today is intentionally not imported.'],
+                notes=['Every record and setting is invented. The pending purchase is treated as confirmed only in this fictional demonstration.'],
                 budget=dict(endpoint=None, defaults=dict(schemaVersion=1, dailyLimit='40.00',
                     currency='USD', timezone='UTC', groups=['daily', 'fixed', 'ai'],
                     allocationMode='history', shares=[])))

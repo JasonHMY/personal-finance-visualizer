@@ -70,3 +70,23 @@ test('confirmed optional classifications survive normalization without inference
  assert.equal(rows.find(r=>r.id==='s').incomeType,'salary');assert.equal(rows.find(r=>r.id==='l').purpose,'loan');assert.equal(rows.find(r=>r.id==='u').purpose,'other');
  assert.throws(()=>data([tx('x','2024-01-01','100','income',{incomeType:'guessed'})]));
 });
+test('confirmed pending purchase counts in spending and budget but not in bank cash movement',()=>{
+ const settings={schemaVersion:1,dailyLimit:'50.00',currency:'USD',timezone:'UTC',groups:['daily','fixed','ai'],allocationMode:'history',shares:[]};
+ const rows=[tx('history','2026-09-01','-100.00','expense',{category:'Groceries'}),tx('posted','2026-10-01','-1300.00','expense',{category:'Groceries'}),tx('pending','2026-10-25','-20.00','expense',{category:'Groceries',bankStatus:'pending',merchant:'Fictional Grocer'}),tx('income','2026-10-02','2000.00','income')];
+ const build=(map=t=>t)=>F.validate({schemaVersion:1,currency:'USD',coverage:{start:'2026-07-01',end:'2026-10-25'},transactions:rows.map(map)});
+ const octPeriod={start:'2026-10-01',end:'2026-10-25'};
+ const s=F.summarize(build(),octPeriod);
+ assert.equal(s.spending,132000);assert.equal(s.outflow,130000);assert.equal(s.inflow,200000);assert.equal(s.net,70000);
+ assert.equal(s.rows.find(r=>r.id==='pending').bankStatus,'pending');
+ assert.equal(F.dailyBudget(build(),settings,'2026-10-26').availableCents,3833);
+ const posted=F.summarize(build(t=>t.id==='pending'?{...t,bankStatus:'posted'}:t),octPeriod);
+ assert.equal(posted.spending,132000);assert.equal(posted.outflow,132000);
+ assert.equal(F.summarize(build(t=>t.id==='pending'?{...t,share:.5}:t),octPeriod).spending,131000);
+});
+test('bankStatus pending is only valid for expenses and unknown statuses are rejected',()=>{
+ for(const bad of [false,0])assert.throws(()=>data([tx('a','2024-01-02','-20.00','expense',{bankStatus:bad})]));
+ for(const empty of [null,''])assert.equal(data([tx('a','2024-01-02','-20.00','expense',{bankStatus:empty})]).transactions[0].bankStatus,'posted');
+ assert.equal(data([tx('a','2024-01-02','-20.00','expense')]).transactions[0].bankStatus,'posted');
+ assert.throws(()=>data([tx('a','2024-01-02','20.00','income',{bankStatus:'pending'})]));
+ assert.throws(()=>data([tx('a','2024-01-02','-20.00','expense',{bankStatus:'cleared'})]));
+});

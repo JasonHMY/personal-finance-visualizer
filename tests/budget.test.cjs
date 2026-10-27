@@ -62,4 +62,17 @@ test('allocation ties do not depend on source transaction order',()=>{
  const rows=['餐饮','超市','衣物'].map((cat,i)=>tx('h'+i,'2025-12-15','-1.00','daily',cat));
  assert.deepEqual(F.dailyBudget(data(rows),settings,'2026-01-27').automaticShares,F.dailyBudget(data([...rows].reverse()),settings,'2026-01-27').automaticShares);
 });
+test('unclassified allocation is excluded without changing actual spending',()=>{
+ const d=data([tx('history-a','2025-12-05','-30.00'),tx('history-b','2025-12-05','-70.00','daily','Dining'),tx('history-u','2025-12-05','-20.00','daily','商户待分类'),tx('current-u','2026-01-05','-39.00','daily','商户待分类')]);
+ const b=F.dailyBudget(d,settings,'2026-01-27');assert.equal(b.spentMonthCents,3900);assert.equal(b.availableCents,5000);assert.equal(b.categoryRows.some(r=>r.category==='商户待分类'),false);assert.deepEqual(b.allocationShares.map(s=>s.basisPoints).sort(),[3000,7000]);assert.equal(b.categoryRows.reduce((n,r)=>n+r.availableCents,0),5000);
+});
+test('old manual shares are renormalized without mutating saved settings',()=>{
+ const manual={...settings,allocationMode:'manual',shares:[{category:'A',basisPoints:2000},{category:'B',basisPoints:6000},{category:'Uncategorized',basisPoints:2000}]};const before=JSON.stringify(manual);const b=F.dailyBudget(data(),manual,'2026-01-27');assert.deepEqual(b.allocationShares,[{category:'A',basisPoints:2500},{category:'B',basisPoints:7500}]);assert.equal(JSON.stringify(manual),before);
+});
+test('only unclassified history produces no invented allocation',()=>{
+ const b=F.dailyBudget(data([tx('u','2025-12-05','-20.00','daily','Uncategorized')]),settings,'2026-01-27');assert.equal(b.hasAllocation,false);assert.deepEqual(b.categoryRows,[]);assert.equal(b.availableCents,5000);
+});
+test('retained tiny shares and amounts sum exactly after exclusion',()=>{
+ const manual={...settings,allocationMode:'manual',shares:[{category:'A',basisPoints:3333},{category:'B',basisPoints:3333},{category:'Tiny',basisPoints:1},{category:'待分类',basisPoints:3333}]};const b=F.dailyBudget(data(),manual,'2026-01-27');assert.equal(b.allocationShares.reduce((n,x)=>n+x.basisPoints,0),10000);assert.equal(b.categoryRows.reduce((n,x)=>n+x.availableCents,0),5000);assert(b.categoryRows.some(x=>x.category==='Tiny'));
+});
 console.log(count+' budget behavior tests passed');

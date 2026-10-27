@@ -15,6 +15,8 @@ Cards stay visible during transitions. Rings and amounts animate continuously; l
 
 Optionally add a daily upper limit and a calendar-month budget. The report spreads the remaining budget over remaining days, applies confirmed personal shares and refunds, and offers historical or manual category reference shares. Incomplete month coverage or data older than yesterday blocks a usable current allowance. Choose the limit, currency, timezone and included groups with the user; the USD 40 demo is fictional.
 
+The allowance shows its amount and percentage change from yesterday’s opening allowance under the current settings. Category references use a clickable pie chart: unclassified categories stay out of the split, while their spending still counts. User-confirmed pending purchases count toward spending and budgets, are labelled in details, and remain outside bank cash movement until posted. Replace a pending record only on clear matching evidence; ask about amount changes or cancellations.
+
 Standalone settings apply only in the current page's memory. Cross-device saving is an optional integration requiring separately authorized private hosting, login protection, a same-origin API and private storage. It is not enabled by installing this Skill. See the [adapter guide](examples/private-budget-service/README.md).
 
 ```bash

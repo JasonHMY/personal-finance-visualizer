@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.6.0 — 2026-10-27
+
+- Show today’s allowance change from yesterday’s opening allowance under the current settings, as an amount and percentage.
+- Replace the category table with an interactive pie chart. Exclude unclassified categories from reference shares and rescale the rest; their spending still counts. Preserve saved manual shares when only other settings change.
+- Support user-confirmed pending purchases in personal spending and budgets while excluding them from bank cash movement. Label them in details and require evidence before replacing them with posted records.
+- 显示今日可花额度相比昨天起始额度的金额与百分比变化，两者都按当前设置计算。
+- 类别表改为可打开明细的饼图。未分类项目不参与参考比例，其余类别重新分满100%，实际花费仍计入；只修改其他设置时保留原手动比例。
+- 已由用户确认的待入账消费计入个人花费和预算，银行现金流暂不计入。明细标出待入账状态，正式入账后须凭明确证据替换，避免重复。
+
 ## 1.5.0 — 2026-10-25
 
 - Add optional daily allowance, calendar-month budgeting, historical or manual category shares, and settings editing. Existing refund and personal-share rules apply; incomplete coverage blocks a current allowance.
