@@ -1,5 +1,13 @@
 # Distribution channels and actual status
 
+## 27 October 2026: v1.6.0 allowance update
+
+- [GitHub v1.6.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.6.0) is public at source commit `1417365`. The remote ZIP matches the reviewed local package byte for byte. All 12 user-level installed files match; Yangxiachi's description and download link were read back as v1.6.0.
+- Adds amount and percentage changes from yesterday's opening allowance, a category pie with transaction drill-down, and user-confirmed pending purchases in personal spending and budgets. Unclassified categories are omitted from reference shares while their spending still counts. Pending purchases stay outside bank cash movement until posted and must be replaced once on clear evidence.
+- All 50 behavior tests, JavaScript syntax and Skill validation passed; the generic service's engine copy remains identical. Three budget screenshots were refreshed using records invented from scratch. Browser checks covered English, Chinese, a 390px layout without horizontal overflow, pie/legend drill-down, pending labels and exclusion from cash movement. No private finance project was read.
+- ClawHub accepted the complete 12-file v1.6.0 package as pending-publication; public latest remains v1.4.1. Skillstore's previous v1.5.0 submission is published. After confirming there was no matching open review PR, the fixed v1.6.0 tag was submitted; its [new receipt](https://skillstore.io/submissions/caf46fa0-d262-46be-974b-e5fc7220bdf9) is Processing. Public availability of the new version is not yet verified.
+- OpenAgentSkill's old receipt still returns 503 in Ego Lite; no duplicate was submitted. Existing myagents and Skillz.directory PR #4 follow-ups continue. The original daily task now follows v1.6.0 at its unchanged time and continues download/feedback reports. No extra automation or promotional message was created.
+
 ## 27 October 2026: daily verification
 
 - The latest stable release remains v1.5.0. GitHub, Skillstore v1.5.0/r7 and Yangxiachi's download link are unchanged. Prior byte-for-byte package checks were reused; no package was downloaded again.
