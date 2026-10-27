@@ -1,5 +1,12 @@
 # 分发渠道与实际状态
 
+## 2026-10-27 晚间核验（v1.6.0）
+
+- GitHub最新稳定版为v1.6.0。ClawHub公开latest仍为v1.4.1，发布者版本列表可见v1.6.0，匿名版本查询仍404，继续原申请。Skillstore v1.6.0回执已转为In Review，[审核PR #3956](https://github.com/aiskillstore/marketplace/pull/3956)三项检查通过、等待合并，公开页仍为v1.5.0/r7。养虾池下载链接指向v1.6.0。
+- 下载计数：ClawHub All time 267（较早上+7）、Skillstore 6、GitHub Release ZIP累计20（+1，即v1.6.0的1次，可能来自发布核验）、养虾池0。ClawHub另列30d为282，不用于累计比较。计数不代表独立用户。
+- 未见新增用户评论、评分或GitHub Issues。ClawHub 0评论、1个上报安装用户、0星标；GitHub1星标；Skillstore87分为平台评分。
+- OpenAgentSkill旧回执在接口和Ego Lite均为503，目录页显示实时注册表暂不可用；myagents返回402 DEPLOYMENT_DISABLED。Skillz.directory PR #4仍OPEN，线上三处安装说明仍只写SKILL.md。skills.sh条目为软404，未收录。未重复提交或发送消息。
+
 ## 2026-10-27 发布：v1.6.0 每日可花补充
 
 - [GitHub v1.6.0](https://github.com/JasonHMY/personal-finance-visualizer/releases/tag/v1.6.0)已公开，源码提交`1417365`。线上ZIP与已审本地包逐字节一致；用户级安装12文件同步，养虾池简介与下载链接已回读为v1.6.0。
